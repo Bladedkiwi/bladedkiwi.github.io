@@ -8,13 +8,15 @@
 		<style>
             @import url('https://fonts.googleapis.com/css?family=Lobster|Saira+Stencil+One&display=swap');
             body {
-                font-family:'Lobster', cursive;
+                font-family:'Lobster';
+                letter-spacing: .02em;
                 width: 75%;
                 margin: 0 auto;
+                background-color: #F6F7EB;
             }
             h1,h2,h3 {
-                font-family: 'Saira Stencil One', cursive;
-                font-weight: bold;
+                font-family: 'Saira Stencil One';
+                letter-spacing: .09em;
             }
             #self-photo {
                 margin-top: .75em;
@@ -23,32 +25,40 @@
             }
             .title-banner {
                 width: 100%;
-                background-color: #2A2A72;
+                background-color: #264653;
                 text-align: center;
+                font-size: 1.5em;
                 padding: .5em;
-                color: #EAF6FF;
+                color: burlywood;
                 border-radius: 1em;
             }
             .content-title {
-                width: 100%;                
+                width: 100%;
+                color: #2A2B2E;               
             }
                 #title-addons {
-                    border-bottom: .05em ridge black;
+                    border-bottom: .05em ridge #2A2B2E;
                     margin-left: .5em;
                 }
 
             nav {
                 margin-left: 3em;
+                margin-bottom: 2.5em;
+                color: #2A2B2E;
+            }
+            a {
+                color:#2A2B2E;
             }
 			footer {
                 width: 100%;
-                background-color:#2A2A72;
-                color:#EAF6FF;
-                display: flex;
-                justify-content: center;
-                align-items: flex-end;
+                background-color:#264653;
+                color: burlywood;
+                text-align:center;            
                 border-radius: 1em;
+                padding: .1em;
                 font-size: .85em;
+                
+                
             }
             #link-addons{
                 color:burlywood;
@@ -82,9 +92,7 @@
             <footer>
                 <div>
                 <p>
-                &copy; 2019 | Kian Hyatt | Illinois | <a id="link-addons" href="https://www.byui.edu/online">BYUI Online Learning</a>
-                </p>
-                <p>Last Modified: 
+                &copy; 2019 | Kian Hyatt | Illinois | <a id="link-addons" href="https://www.byui.edu/online">BYUI Online Learning</a><br>Last Modified: 
                     <script>
                          document.write(document.lastModified);
                     </script>
