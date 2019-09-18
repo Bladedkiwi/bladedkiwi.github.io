@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+	<head>
+        <meta charset="utf-8">
+        <meta name="author" content="Kian Hyatt">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+		<title>Lesson Container</title>
+		<style>
+            @import url('https://fonts.googleapis.com/css?family=Lobster|Saira+Stencil+One&display=swap');
+            body {
+                font-family:'Lobster', cursive;
+                width: 75%;
+                margin: 0 auto;
+            }
+            h1,h2,h3 {
+                font-family: 'Saira Stencil One', cursive;
+                font-weight: bold;
+            }
+            #self-photo {
+                margin-top: .75em;
+                float: right;
+                z-index: 1;
+            }
+            .title-banner {
+                width: 100%;
+                background-color: #2A2A72;
+                text-align: center;
+                padding: .5em;
+                color: #EAF6FF;
+                border-radius: 1em;
+            }
+            .content-title {
+                width: 100%;                
+            }
+                #title-addons {
+                    border-bottom: .05em ridge black;
+                    margin-left: .5em;
+                }
+
+            nav {
+                margin-left: 3em;
+            }
+			footer {
+                width: 100%;
+                background-color:#2A2A72;
+                color:#EAF6FF;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                border-radius: 1em;
+                font-size: .85em;
+            }
+            #link-addons{
+                color:burlywood;
+            }
+
+		</style>
+		<script>          
+
+		</script>
+	</head>
+		<body>
+			<div id="self-photo">
+                <!--Self Photo-->
+                <img src="https://cdn.glitch.com/6a2a1f6c-c75f-4a0f-b468-ef0c1ffb6f9d%2FProfilepic.png?v=1568765692131" alt="Picture of Kian Hyatt"> 
+            </div>
+            <div class="title-banner">
+                <!--Title-->
+                <h1>Kian C. Hyatt</h1>
+            </div>
+            <div class="content-title">
+                <!--content title banner-->
+                <h2 id="title-addons">CIT 230: Assignment Portal</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li>Lesson 02: <a href="https://github.com/Bladedkiwi/bladedkiwi.github.io">Assignment Link</a></li>
+                    <li>Lesson 03: <a href="https://github.com/Bladedkiwi/bladedkiwi.github.io">Assignment Link</a></li>
+                    <li>Lesson 04: <a href="https://github.com/Bladedkiwi/bladedkiwi.github.io">Link</a> | <a href="">Link</a></li>
+                </ul>
+            </nav>
+            <footer>
+                <div>
+                <p>
+                &copy; 2019 | Kian Hyatt | Illinois | <a id="link-addons" href="https://www.byui.edu/online">BYUI Online Learning</a>
+                </p>
+                <p>Last Modified: 
+                    <script>
+                         document.write(document.lastModified);
+                    </script>
+                </p>
+                </div>
+            </footer>
+		</body>
+</html>
