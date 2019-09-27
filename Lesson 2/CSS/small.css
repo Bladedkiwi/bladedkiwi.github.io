@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400i|Saira+Stencil+One&display=swap');
 
-h1,h2 {
-    font-family: 'Saira Stencil One', sans-serif;
+h1,h2,h3, h4 {
+    font-family: 'Saira Stencil One', cursive;
     letter-spacing: .09em;
     font-size: 1.5rem;
     margin: 0.15rem;
@@ -9,44 +9,49 @@ h1,h2 {
 h2 {
     font-size: 1rem;
 }
-header img {
-    width: 200px;
-    height: auto;    
-}
 
-.content-title {
-    width: 100%;
-    color: #2A2B2E;               
-}
-    #title-addons {
-        border-bottom: .05em ridge #2A2B2E;
-        margin-left: .5em;
-    }
-
-nav {
-    color: #2A2B2E;
-}
-a {
-    color:#2A2B2E;
-}
-
-header, footer, body {
+header, footer {
     width: 100%;
     background-color:#264653;
-    color: burlywood;
-    font-family: 'Lobster', sans-serif;
+    color: #2A2B2E;
     text-align: center;            
     padding: .5em;
     font-size: .85em;  
     
 }
-body {
+p {
+    font-family: 'PT Sans', cursive;
     letter-spacing: .02em;
     text-align: start;
+}
+body {
     width: 75%;
     margin: 0 auto;
     background-color: #F6F7EB;
 }
-#link-addons{
+.text-addons{
     color:burlywood;
+}
+/*************** Grid Layout Specifications *************/
+main {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 1em;
+    margin: 0 auto;
+}
+main section {
+    background-color:rgb(224, 186, 136);
+    margin: 0.5em;
+    padding: 0 1rem;
+    border: 1px solid #264653;
+    box-shadow: 3px 5px 3px 5px #264653;
+
+}
+section:nth-child(2){
+
+}
+section:nth-child(3){
+    
+
 }
