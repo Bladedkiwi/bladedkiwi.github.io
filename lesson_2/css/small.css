@@ -13,7 +13,8 @@ h2 {
 section h2,h4,a {
     font-family: 'PT Sans', cursive;
     letter-spacing: 0.1em;
-    margin: 0.75rem;
+    padding: .3em;
+    margin: 0 auto;
     color: #4D243D;
 }
 
@@ -48,13 +49,16 @@ main {
 }
 main section {
     margin: 0.5em;
-    padding: 0.1rem;
     border: 1px solid #264653;
     background-color:rgb(224, 186, 136);
     box-shadow: 3px 3px 30px 3px #264653;
 
 }
 main section img {
-    width: 100%;
+    padding: 0.5em;
+    width: 90%;
     height: auto;
+}
+main section p {
+    padding: 0.8rem;
 }
