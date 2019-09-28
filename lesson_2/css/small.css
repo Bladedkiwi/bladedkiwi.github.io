@@ -2,7 +2,7 @@
 
 h1,h2 {
     font-family: 'Saira Stencil One', cursive;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
     font-size: 1.6rem;
     margin: 0.75rem;
     color: #4D243D;
@@ -48,7 +48,7 @@ main {
 }
 main section {
     margin: 0.5em;
-    padding: 0 1rem;
+    padding: 0.1rem;
     border: 1px solid #264653;
     background-color:rgb(224, 186, 136);
     box-shadow: 3px 3px 30px 3px #264653;
