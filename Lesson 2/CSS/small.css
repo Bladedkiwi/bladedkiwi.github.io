@@ -38,7 +38,7 @@ main {
     max-width: 375px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-columpn-gap: 1em;
+    grid-column-gap: 1em;
     margin: 0 auto;
     align-items: flex-start;
 }
@@ -48,13 +48,5 @@ main section {
     padding: 0 1rem;
     border: 1px solid #264653;
     box-shadow: 3px 5px 3px 5px #264653;
-
-}
-section:nth-child(2){
-  
-
-}
-section:nth-child(3){
-   
 
 }
