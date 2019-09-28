@@ -1,18 +1,14 @@
 @media only screen and (min-width: 32.5em) {
     main {
-        grid-template-columns: 1fr 1fr;
-        max-width: 960px;
-    }
-    section:nth-child(1){
-        display: block;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     section:nth-child(2){
+        grid-column: span 1;
+    }
+    section:nth-child(3){
         grid-column: span 2;
     }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+
 
 
 

@@ -35,11 +35,11 @@ body {
 
 /*************** Grid Layout Specifications *************/
 main {
-    width: 800px;;
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 1em;
-    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: .3em;
+    margin: 7px auto;
 }
 main section {
     background-color:rgb(224, 186, 136);
