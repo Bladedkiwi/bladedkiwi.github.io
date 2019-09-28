@@ -35,12 +35,11 @@ body {
 
 /*************** Grid Layout Specifications *************/
 main {
-    max-width: 375px;
+    width: 800px;;
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 1em;
     margin: 0 auto;
-    align-items: flex-start;
 }
 main section {
     background-color:rgb(224, 186, 136);
