@@ -9,7 +9,7 @@
         border-radius: 5px;
     }
     main {
-        max-width: 955px;
+        max-width: 950px;
         grid-template-columns: 1fr 1fr;
     }
     section:nth-child(2){
