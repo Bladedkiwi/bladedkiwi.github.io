@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400i|Saira+Stencil+One&display=swap');
 
-h1,h2,h3,h4 {
+h1,h2,h3 {
     font-family: 'Saira Stencil One', cursive;
     letter-spacing: .1em;
     font-size: 1.5rem;
     margin: 0.15rem;
+    color: #4D243D;
 }
 h2 {
     font-size: 1rem;
@@ -13,7 +14,6 @@ h2 {
 header, footer {
     width: 100%;
     background-color:#264653;
-    color: #0C0A3E;
     text-align: center;            
     padding: .5em;
     font-size: .85em;  
@@ -34,17 +34,21 @@ body {
 
 /*************** Grid Layout Specifications *************/
 main {
-    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: .3em;
-    margin: 7px auto;
+    font-size: 1rem;
 }
 main section {
-    background-color:rgb(224, 186, 136);
     margin: 0.5em;
     padding: 0 1rem;
     border: 1px solid #264653;
-    box-shadow: 3px 5px 3px 5px #264653;
+    background-color:rgb(224, 186, 136);
+    box-shadow: 3px 3px 30px 3px #264653;
 
+}
+main section img {
+    width: 100%;
+    height: auto;
 }
