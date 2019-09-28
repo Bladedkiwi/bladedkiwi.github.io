@@ -25,7 +25,7 @@ p {
     text-align: start;
 }
 body {
-    max-width: 800px;
+    width: 75%;
     margin: 0 auto;
     background-color: #F6F7EB;
 }
@@ -35,10 +35,10 @@ body {
 
 /*************** Grid Layout Specifications *************/
 main {
-    max-width: 800px;
+    max-width: 375px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-column-gap: 1em;
+    grid-columpn-gap: 1em;
     margin: 0 auto;
     align-items: flex-start;
 }
