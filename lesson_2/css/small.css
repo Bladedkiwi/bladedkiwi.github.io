@@ -38,13 +38,15 @@ body {
 .text-addons{
     color:burlywood;
 }
+.sizing{
+   height: 7em;
+}
 
 /*************** Grid Layout Specifications *************/
 main {
     max-width: 750px;
-    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     font-size: 1rem;
 }
 main section {
@@ -55,10 +57,10 @@ main section {
 
 }
 main section img {
-    padding: 0.5em;
+    padding: 1em;
     width: 90%;
     height: auto;
 }
 main section p {
-    padding: 0.8rem;
+    padding: 0.5rem;
 }
