@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400i|Saira+Stencil+One&display=swap');
 
-h1,h2,h3, h4 {
+h1,h2,h3,h4 {
     font-family: 'Saira Stencil One', cursive;
     letter-spacing: .09em;
     font-size: 1.5rem;
@@ -13,7 +13,7 @@ h2 {
 header, footer {
     width: 100%;
     background-color:#264653;
-    color: #2A2B2E;
+    color: #0C0A3E;
     text-align: center;            
     padding: .5em;
     font-size: .85em;  
@@ -22,7 +22,6 @@ header, footer {
 p {
     font-family: 'PT Sans', cursive;
     letter-spacing: .02em;
-    text-align: start;
 }
 body {
     width: 75%;
