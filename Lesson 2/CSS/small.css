@@ -25,13 +25,14 @@ p {
     text-align: start;
 }
 body {
-    width: 75%;
+    max-width: 800px;
     margin: 0 auto;
     background-color: #F6F7EB;
 }
 .text-addons{
     color:burlywood;
 }
+
 /*************** Grid Layout Specifications *************/
 main {
     max-width: 800px;
@@ -39,6 +40,7 @@ main {
     grid-template-columns: 1fr;
     grid-column-gap: 1em;
     margin: 0 auto;
+    align-items: flex-start;
 }
 main section {
     background-color:rgb(224, 186, 136);
@@ -49,9 +51,10 @@ main section {
 
 }
 section:nth-child(2){
+  
 
 }
 section:nth-child(3){
-    
+   
 
 }
