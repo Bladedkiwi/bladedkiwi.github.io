@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans:400i|Saira+Stencil+One&display=swap');
-
 h1,h2 {
     font-family: 'Saira Stencil One', cursive;
     letter-spacing: 0.1em;
@@ -39,7 +37,9 @@ body {
     color:burlywood;
 }
 .sizing{
-   height: 7em;
+   height: 6em;
+   text-align: center;
+   margin-top: 1em;
 }
 
 /*************** Grid Layout Specifications *************/
