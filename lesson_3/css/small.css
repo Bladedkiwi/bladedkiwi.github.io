@@ -13,6 +13,13 @@ h2 {
     font-style: italic;
     font-size: 1rem;
 }
+.text-addons{
+    margin: 0;
+}
+.img-addons {
+    width: 400px;
+    height: auto;
+}
 
 
 header, footer {
@@ -64,21 +71,53 @@ li a:hover {
 }
 /* MAIN */
 main {
-    display: flex;
-    flex-flow: row wrap;
     margin: 1em;
   }
   main article {
     background-color: #e3e6ee;
-    border: 10px double #383a3c;
-    width: 28%;
+    border: 10px double #120D18;
     padding: 1em;
   }
-  main picture {
-      width: 28%;
-      padding: 1.2em;
+  /*Special font/color ID's*/
+  #righteous-text {
+      font-family:'Righteous';
+      border: 3px groove #120D18;
+      padding: 0.5em;
+      background-color: #888D91;
   }
-  .text-addons {
-    color: #9bdbe8;
-    letter-spacing: 0.2rem;
+  #arimo-text {
+      font-family: 'Arimo';
+      border: 3px groove #120D18;
+      padding: 0.5em;
+      background-color: #888D91;
+  }
+  #primary {
+    background-color:#383A3C;
+    color: #9BDBE8;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #secondary {
+    background-color:#E3E6EE;
+    color: #120D18;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #tertiary {
+    background-color:#9BDBE8;
+    color: #120D18; 
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #accent1 {
+    background-color:#888D91;
+    color: #120D18;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
+  }
+  #accent2 {
+    background-color:#120D18;
+    color:#e3e6ee;
+    border: 3px ridge #120D18;
+    padding: 0.3rem;
   }
