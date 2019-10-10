@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+
+h1{
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+}
+header {
+    border-width: 3px 3px 0px 3px;
+    border-style: groove;
+    border-color: #383A3C;
+}
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+}
