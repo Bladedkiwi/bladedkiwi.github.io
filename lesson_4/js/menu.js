@@ -5,6 +5,6 @@ function toggleMenu() {
         document.getElementsByClassName("navigation.responsive")[0].innerHTML = "&#9748;";
     }
     else {
-        document.getElementsByClassName("navigation")[0].innerHTML = ("&#9730; Menu");
+        document.getElementsByClassName("navigation")[0].innerHTML = "&#9730; Menu";
     }
 }
