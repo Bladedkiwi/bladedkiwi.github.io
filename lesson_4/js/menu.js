@@ -1,10 +1,9 @@
 function toggleMenu() {
-    var x = document.getElementsByClassName("navigation")[0].className
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
-    if (x == "navigation") {
-        document.getElementsByClassName("navigation.responsive")[0].innerHTML = "&#9748;";
+    if (document.getElementsByClassName("navigation")[0].classList.contains("responsive")) {
+        document.getElementsByClassName("navigation")[0].children[0].children[0].innerHTML = "&#9748; Home";
     }
     else {
-        document.getElementsByClassName("navigation")[0].innerHTML = "&#9730; Menu";
+        document.getElementsByClassName("navigation")[0].children[0].children[0].innerHTML = "&#9730; Menu";
     }
 }
