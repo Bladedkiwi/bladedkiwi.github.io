@@ -4,6 +4,6 @@ function toggleMenu() {
         document.getElementsByClassName("navigation")[0].children[0].children[0].innerHTML = "&#9748; Home";
     }
     else {
-        document.getElementsByClassName("navigation")[0].children[0].children[0].innerHTML = "&#9730; Menu";
+        document.getElementsByClassName("navigation")[0].children[0].children[0].innerHTML = "&#9730; Home";
     }
 }
