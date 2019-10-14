@@ -1,0 +1,26 @@
+@media only screen and (min-width: 32.5em) {
+.content {
+    border-color: #888D91;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2 {
+    font-size: 1.5rem;
+    border-bottom: 4px solid rgba(0,0,0,0.5);
+    width: 99%;
+}
+header {
+    border-width: 3px 3px 0px 3px;
+    border-style: groove;
+    border-color: #383A3C;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+}
