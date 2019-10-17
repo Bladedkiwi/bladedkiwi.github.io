@@ -143,3 +143,19 @@ article img {
     width: 100%;
     margin: auto;
 }
+/* Special Pancake awareness*/
+#pancakes {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #120D18;
+    box-shadow: 0 0 30px #E3E6EE;
+    opacity: .8;
+}
+#pancakes h2{
+    color: #E3E6EE;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: .1rem;
+}
