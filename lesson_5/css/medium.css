@@ -23,4 +23,35 @@ header {
     display: block;
     flex: 1 1 100%;
 }
+.summary-stats {
+    top: 1.5rem;
+    left: 3rem;
+    padding: 1.5rem;
+}
+section.content {
+    display: contents;
+}
+.forecast {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.holding-box {
+    display: flex;
+    flex-flow: row wrap;
+}
+.box {
+    display:flex;
+    flex-direction: column;
+    background-color:#9BDBE8;
+    margin: 15px 5px 15px;
+    border: 3px outset #383A3C;
+    box-shadow: 0 0 30px #383A3C;
+    text-align: center;
+}
+#map {
+    display: contents;
+}
+
+
 }
