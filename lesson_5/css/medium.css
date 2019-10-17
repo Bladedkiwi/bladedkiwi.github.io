@@ -16,6 +16,9 @@ header {
     border-color: #383A3C;
     margin: 0 auto;
 }
+.special-heading {
+    font-size: 2.5rem;
+}
 .navigation {
     display: flex;
 }
@@ -39,6 +42,7 @@ section.content {
 
 .holding-box {
     display: flex;
+    justify-content: space-around;
 }
 
 .box {
@@ -48,9 +52,11 @@ section.content {
     box-shadow: 0 0 30px #383A3C;
     text-align: center;
 }
-#map {
-    display: contents;
+article img {
+    width: 100%;
 }
-
+#map {
+    display: block;
+}
 
 }

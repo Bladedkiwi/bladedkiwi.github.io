@@ -8,21 +8,20 @@ h1,h2 {
     color: #120D18;  
     margin: 0 0 0 3px;
 }
-h2 {
-    color: #E3E6EE;
-    font-style: italic;
-    font-size: 1rem;
-    letter-spacing: .2rem;
+p {
+    margin: auto;
+    padding: .5em;
 }
 .text-addons {
     color: #383A3C;
-    letter-spacing: .2rem;
-    margin: .5rem 0 0;
+    margin: .5rem 0 .5rem;
+    padding: 0;
 }
 .special-heading {
     color:rgb(234, 237, 245);
     margin: 1.3rem auto;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    padding: .5rem;
     letter-spacing: .4rem;
 }
 header, footer {
@@ -141,6 +140,6 @@ article img {
     display: none;
 }
 #town {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
 }
