@@ -28,21 +28,20 @@ header {
     left: 3rem;
     padding: 1.5rem;
 }
+
 section.content {
-    display: contents;
+    display: block;
 }
+
 .forecast {
     justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
 .holding-box {
     display: flex;
-    flex-flow: row wrap;
 }
+
 .box {
-    display:flex;
-    flex-direction: column;
     background-color:#9BDBE8;
     margin: 15px 5px 15px;
     border: 3px outset #383A3C;

@@ -99,7 +99,7 @@ li {
     display: block;
     background-color: #E3E6EE;
     color: #120D18;
-    border: 5px outset#120D18;
+    border: 5px outset #120D18;
     border-radius: 3px;
     margin: .5em;
     padding: .3em;
@@ -132,7 +132,6 @@ article img {
 }
 #contact-us {
     display: flex;
-    flex-flow: nowrap;
     justify-content: space-around;
     align-items: center;
     margin: 0 auto;
