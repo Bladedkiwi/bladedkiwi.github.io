@@ -16,6 +16,9 @@
 header img {
     width: 100%;
 }
-
+#pancakes h2 {
+    letter-spacing: .2rem;
+    font-size: 100%;
+}
 
 }
