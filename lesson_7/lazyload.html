@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kian Hyatt">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A practice with Lazy Loading Images on a Web Page">
+    <title>Lazy Loading Test 3 2 1 Go</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/lazy.css">
+    <!--The simple page should have a standard <head> section and only needs to contain an h1 and five or six picture 
+        elements with single img elements as children. The picture elements need to be in one column. 
+        The images should have dimensions of  300x400 pixels in order to test the lazy image loading method.  
+        You may use your own images or external placeholders.
+
+        Include a placeholder image that has one background color and some simple text like 'placeholder'. 
+        This will be loaded into all six img src attributes first.
+                
+        Replace the placeholder image with the real images as soon as each image is loaded from its source.
+                
+        Use some sort of transition from the placeholder to the real image as illustrated in the reading.
+                
+        Lazy load the images using an instance of the IntersectionObserver() JavaScript object. 
+        Your images should load when a user scrolls down the screen as needed.-->
+</head>
+
+<body>
+    <header><h1>Lazy Loading at it's Finest</h1></header>
+    <main class="grid">
+   <figure>
+       <img src="../data/placeholder-300x400.png" data-src="../img/dog1.jpg" alt="One Fluffy Dog running">
+       <figcaption>Stick, Stick, Stick!</figcaption>
+   </figure>
+   <figure>
+       <img src="../data/placeholder-300x400.png" data-src="../img/dog2.jpg" alt="Dog's nose really close to the camera">
+       <figcaption>Found the Camera!</figcaption>
+   </figure>
+   <figure>
+       <img src="../data/placeholder-300x400.png" data-src="../img/dog3.jpg" alt="Comically Sad looking dog not wanting to get out of bed">
+       <figcaption>"Maybe if I pose in the bed, they will let me stay.."</figcaption>
+   </figure>
+   <figure>
+       <img src="../data/placeholder-300x400.png" data-src="../img/dog4.jpg" alt="Dog on owner licking face in the woods">
+       <figcaption>"Yum, salty face"</figcaption>
+   </figure>
+   <figure>
+       <img src="../data/placeholder-300x400.png" data-src="../img/dog5.jpg" alt="Two dogs staring off into the distance on a Farm">
+       <figcaption>"Hold still, there's a squirrel"</figcaption>
+   </figure>
+   <figure>
+       <img src="../data/placeholder-300x400.png" data-src="../img/dog6.jpg" alt="Massive dog as big a the human giving a hug">
+       <figcaption>HUGS</figcaption>
+   </figure>
+   </main>
+   
+
+</body>
+<script src="../js/lloading.js">
+</script>
+
+</html>

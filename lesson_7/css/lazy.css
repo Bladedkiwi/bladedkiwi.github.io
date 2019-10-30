@@ -1,0 +1,25 @@
+body{
+    background-color: #eec985c9;
+}
+header {
+    width: 100%;
+    background-color:#653455;
+    color: #eedbb7;
+    align-items: center;
+}
+h1 {
+    padding: .5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;    
+}
+/********************************* Image blur and Transition *******************************/
+figure[data-src] {
+    filter: blur(0.2em);
+}
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
