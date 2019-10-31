@@ -82,7 +82,11 @@ nav {
     background-color: #E3E6EE;
     border: 5px outset #120D18;
     text-align: center;
+}figure[data-src] {
+    filter: blur(0.2em);
 } figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
     width: 100%;
 } figcaption {
     font-style: italic;
