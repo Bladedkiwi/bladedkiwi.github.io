@@ -9,9 +9,8 @@ const imgAccents = {
 const loadedImages = (image) => {
     image.setAttribute('src', image.getAttribute('data-src'));
     image.onload = () => {
-        image.removeAttribute('data-src');
-    }
-}
+        image.removeAttribute('data-src');};
+};
 //checking the browser compatibility and display when necessary
 if ('IntersectionObserver' in window) {
     const imgLook = new IntersectionObserver((items, imgLook) => {
@@ -21,12 +20,12 @@ if ('IntersectionObserver' in window) {
                 imgLook.unobserve(item.target);
             }
         });
-    });
+    }, imgAccents);
     allImages.forEach((img) => {
         imgLook.observe(img);
     });
 } else {
     allImages.forEach((img) => {
         loadedImages(img)
-    })
-};
+    });
+}
