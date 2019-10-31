@@ -12,11 +12,16 @@
     } header img {
         width: 100%;
     }
-    /*********************************Preston Town Specials******************/
-    .content {
-        border-color: #120D18;
-    } #pancakes h2 {
+    /****************************Pancakes***********************************/
+    #pancakes h2 {
         letter-spacing: .2rem;
         font-size: 100%;
+    } 
+    /****************************Gallery***********************************/
+    figure:hover {
+        transform: scale(1.4);
+        transition: 500ms;
+        box-shadow: 0px 0px 30px #E3E6EE;
+        z-index: 1;
     } 
 }

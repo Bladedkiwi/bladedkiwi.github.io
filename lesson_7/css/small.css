@@ -1,22 +1,10 @@
+
 /***********************************Headings/Footer/Body******************************/
 h1,h2 {
     font-family: 'Righteous', cursive;
     font-size: 1.5rem;
     color: #120D18;  
     margin: 0 0 0 3px;
-} p {
-    margin: auto;
-    padding: .5em;
-} .text-addons {
-    color: #383A3C;
-    margin: .5rem 0 .5rem;
-    padding: 0;
-} .special-heading {
-    color:rgb(234, 237, 245);
-    margin: 1.3rem auto;
-    font-size: 1.5rem;
-    padding: .5rem;
-    letter-spacing: .4rem;
 } header, footer {
     width: 100%;
     background-color:#9BDBE8;          
@@ -38,7 +26,7 @@ h1,h2 {
     font-family: 'Arimo', sans-serif;
     background-color: #383A3C;
 } 
-/*************************NAVIGATION BAR*****************************/
+/************************************NAVIGATION BAR***********************************/
 nav {
     background-color: #120D18;
     color: #383A3C;
@@ -69,50 +57,8 @@ nav {
     color: #E3E6EE;
 } .responsive li {
     display: block;
-} 
-/******************************* MAIN ****************/
-li {
-    list-style-type: none;
-} .content {
-    display: block;
-    background-color: #E3E6EE;
-    color: #120D18;
-    border: 5px outset #120D18;
-    border-radius: 3px;
-    margin: .5em;
-    padding: .3em;
-} section.content {
-    display: none;
-} article img {
-    max-width: 100%;
-} .herodiv{
-    position: relative;
-    margin: 10px auto;
-} .summary-stats{
-    position: absolute;
-    top: 1.3em;
-    left: 2em;
-    background: radial-gradient(#E3E6EE,#383A3C);
-    border: 3px dashed #120D18;
-    box-shadow: 0 0 30px #383A3C;
-    padding: .7rem;
-    opacity: .8;
-} .stats {
-    font-weight: bolder;
-    font-style: italic;
-} #contact-us {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    padding: .6em;
-}#map {
-    display: none;
-} #town {
-    max-width: 100%;
-    margin: auto;
 }
-/*********************** Special Pancake Awareness******************/
+/********************************* Special Pancake Awareness*************************/
 #pancakes {
     display: none;
     position: absolute;
@@ -127,4 +73,18 @@ li {
     text-align: center;
     letter-spacing: .1rem;
     font-size: 75%;
+}
+/****************************Gallery***********************************/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+} figure {
+    background-color: #E3E6EE;
+    border: 5px outset #120D18;
+    text-align: center;
+} figure img {
+    width: 100%;
+} figcaption {
+    font-style: italic;
+    font-size: 1.3rem;
 }
