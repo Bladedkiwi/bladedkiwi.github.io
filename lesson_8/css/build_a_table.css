@@ -18,7 +18,7 @@ body {
   font-size: 1.5rem;
 } table tfoot td {
   font-size: 0.7rem;
-  font-weight: 100;
+  font-weight: 600;
 } table th, #color_change {
   background-color:#628ca6;
   color: #fff;
