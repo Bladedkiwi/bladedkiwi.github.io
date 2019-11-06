@@ -14,7 +14,7 @@ body {
 } table caption {
   font-weight: 700;
   letter-spacing: 1px;
-  text-shadow: 2px 0 #000;
+  text-shadow: 1.5px 0 #000;
   font-size: 1.5rem;
 } table tfoot td {
   font-size: 0.7rem;
