@@ -32,4 +32,6 @@ body {
   text-align: center;
 } tbody tr:nth-child(5) td:nth-child(1) {
   font-style: italic;
-}
+} table, caption {
+    box-shadow: 7px 7px 7px 0 #779bb3;
+  }
