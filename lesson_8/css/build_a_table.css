@@ -9,7 +9,7 @@ body {
 } th, td, tfoot{
   border: 1px solid #babcbb;
 } table td {
-    text-shadow: 1px 0 #000;
+    text-shadow: 0.3px 0 #000;
 } table caption, tfoot td {
   background-color:#7fb9c2;
   padding: 7px;
@@ -20,11 +20,16 @@ body {
   font-size: 1.5rem;
 } table tfoot td {
   font-size: 0.7rem;
+} table td {
+    text-shadow: .3px 0 #000;
 } table th, #color_change {
   background-color:#628ca6;
   color: #fff;
+  text-shadow: .3px 0 #fff;
 } table th, td {
   padding: 5px;
+} table th {
+    letter-spacing: .1rem;
 } table tr:nth-child(odd) {
   background-color:#e7ffed;
   text-align: center;
