@@ -8,6 +8,8 @@ body {
   border-collapse: collapse;
 } th, td, tfoot{
   border: 1px solid #babcbb;
+} table td {
+    text-shadow: 1px 0 #000;
 } table caption, tfoot td {
   background-color:#7fb9c2;
   padding: 7px;
@@ -18,7 +20,6 @@ body {
   font-size: 1.5rem;
 } table tfoot td {
   font-size: 0.7rem;
-  font-weight: 600;
 } table th, #color_change {
   background-color:#628ca6;
   color: #fff;
