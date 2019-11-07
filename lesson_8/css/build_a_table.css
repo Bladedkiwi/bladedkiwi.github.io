@@ -6,6 +6,9 @@ body {
 } table {
   width: 275px;
   border-collapse: collapse;
+} tbody{
+    background-color:#e7f0ed;
+    text-align: center;
 } th, td, tfoot{
   border: 1px solid #babcbb;
 } table td {
@@ -33,11 +36,6 @@ body {
 } table tr:nth-child(odd) {
   background-color:#e7ffed;
   text-align: center;
-} table tr:nth-child(even){
-  background-color:#e7f0ed;
-  text-align: center;
-} tbody tr:nth-child(5) td:nth-child(1) {
-  font-style: italic;
 } table, caption {
     box-shadow: 7px 7px 7px 0 #779bb3;
 }
