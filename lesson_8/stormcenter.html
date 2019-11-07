@@ -47,38 +47,66 @@
         </ul>
     </nav>
     <main>
-<section>
-    <!--name, email, phone, zipcode all required-->
-    <div>
+        <form method='get' action="thanks.html">
+        <h2 class="headings">Submission Form</h2>
+            <section>
+                <!--name, email, phone, zipcode all required-->
+                <fieldset>
+                    <legend>Personal Info</legend>
+                    <label class="input-heading">Full Name*<input type="text" name="name" required></label>
+                    <label class="input-heading">Email*<input type="email" name="email" placeholder="name@example.com"
+                            required></label>
+                    <label class="input-heading">Phone*<input type="tel" name="phone" required></label>
+                    <label class="input-heading">Zipcode*<input type="number" name="zipcode" required></label>
+                </fieldset>
+            </section>
 
-    </div>
-</section>
-<section>
-    <!--storm type, storm severity, storm region-->
-    <div>
-
-    </div>
-</section>
-<section>
-<!--user in-danger level, using radio buttons-->
-<div>
-
-</div>
-</section>
-<section>
-<!--additional text box for more comments-->
-<div>
-
-</div>
-</section>
-<section>
-<!--form submission area-->
-<div>
-    
-</div>
-</section>
-
-
+            <section>
+                <!--storm type, storm severity, storm region-->
+                <fieldset>
+                    <legend>Details about your Storm...</legend>
+                    <label class="input-heading">Storm Date<input type="date" name="sDate"></label>
+                    <label class="input-heading" for="stormType">Storm Type</label>
+                    <input name="storms" list="stormType">
+                    <datalist id="stormType">
+                        <option value="Flash Flood">
+                        <option value="Hail">
+                        <option value="Hurricane">
+                        <option value="Thunderstorm">
+                        <option value="Tornado">
+                    </datalist>
+                    <label for="rating" class="input-heading">Storm Severity: Rating (1 to 10)
+                        <input type="range" id="rating" value="5" min="1" max="10" step="1"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                            <span id="ratingvalue">5</span>
+                    </label>
+                    <label class="input-heading">Storm Regions
+                        <select name="storm">
+                            <option value="">Please Select... </option>
+                            <option value="preston">Preston</option>
+                            <option value="sodaSprings">Soda springs</option>
+                            <option value="fishHaven">Fish Haven</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </section>
+            <section>
+                <!--additional text box for more comments-->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    <div class="input-heading">In danger? <em>(Choose one)</em></div>
+                    <label class=special-buttons"><input type="radio" name="danger" value="yes">Yes</label>
+                    <label class=special-buttons"><input type="radio" name="danger" value="no">No</label>
+                    <label class=special-buttons"><input type="radio" name="danger" value="maybe">Maybe</label>
+                    <label class="input-heading"><div>Is there anything else you would like us to know?</div><textarea name="text"
+                            cols="40" rows="9" placeholder="Comments Here..."></textarea></label>
+                </fieldset>
+            </section>
+            <section>
+                <!--form submission area-->
+                <input type="Submit" value="Recieve Help, if needed" class="subButton">
+            </section>
+        </form>
 
 
     </main>
@@ -94,7 +122,7 @@
     </footer>
     <script src="../js/menu.js"></script>
     <script src="../js/pancake-party.js"></script>
-    <script src="../js/windchill.js"></script>
+    <script src="../js/storm_dial.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
