@@ -115,7 +115,7 @@ form {
     padding-top: 1rem;
     color: rgb(51, 15, 95);
     font-weight: bold;
-    font-size: .8rem;
+    font-size: 1.1rem;
 } form label.input-heading input, form.input-heading select, label.input-heading datalist{
     -webkit-appearance: none;
     display: block;
@@ -143,4 +143,30 @@ form {
     border-left: red solid 6px;
 } form label.input-heading input:required:valid {
     border-left: green solid 6px;
-} 
+} .special-buttons > input {
+    visibility: hidden;
+    position: absolute;
+  }
+  .special-buttons > i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: 0.2s;
+    box-shadow: inset 0 0 0 8px #fff;
+    border: .5px solid #383A3C;
+  } .special-buttons span {
+      padding: .3rem;
+      font-size:.75rem;
+  }
+  .special-buttons > input:checked + i {
+    box-shadow: inset 0 0 0 3px #E3E6EE;
+    background: rgb(46, 12, 88);
+  }
+  .special-buttons > input:checked ~ span {
+    color: #979797;
+  } textarea {
+      display: block;
+      margin: .3rem;
+  }
