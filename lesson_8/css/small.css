@@ -131,7 +131,7 @@ form {
     font-size:1rem;
     padding: .75rem;
     max-width: 20rem;
-} textarea {
+} textarea#commentBox {
     display: block;
     margin: .3rem;
 }

@@ -29,5 +29,8 @@
         padding: .4rem 0;
     } form fieldset {
         margin: .5rem 10rem .8rem .5rem;
+    } textarea#commentBox {
+        height: 4em;
+        width: 50em;
     }
 }
