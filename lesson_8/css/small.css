@@ -116,7 +116,7 @@ form {
     color: rgb(51, 15, 95);
     font-weight: bold;
     font-size: .8rem;
-} form label.input-heading, form.input-heading select, label.input-heading datalist{
+} form label.input-heading input, form.input-heading select, label.input-heading datalist{
     -webkit-appearance: none;
     display: block;
     font-size:1rem;
