@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+} section {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+} h1, h2 {
+    font-family: 'Bree Serif', serif;
+} p {
+    font-family: 'Arial';
+}
