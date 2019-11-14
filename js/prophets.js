@@ -5,7 +5,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
         //storing the results of the grabbed array
         const prophets = jsonObject['prophets'];
         //looping through each prophet, for the cards
