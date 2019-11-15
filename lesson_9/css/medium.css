@@ -21,46 +21,22 @@
     }
 /********************************Index***********************************/
     
-.towns {
+  
+  .towns section:nth-of-type(1) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "text1 pic4" "pic5 text2" "text3 pic6";
-    grid-area: content;
-  } .side {
+    grid-template-areas: "text1 pic4";
+  }
+   .towns section:nth-of-type(2) {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "pic1" "pic2" "pic3";
-    grid-area: side;
-  } 
-  .pic1 { grid-area: pic1; }
-  .pic2 { grid-area: pic2; }
-  .pic3 { grid-area: pic3; }
-  .gutter { grid-area: gutter; }
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "pic5 text2";
+  } .towns section:nth-of-type(3) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "text3 pic6";
+  }
 
-    /*main section:nth-of-type(1) h2, section:nth-of-type(1) h3, section:nth-of-type(1) p {
-        grid-area: text1;
-    }
-    main section:nth-of-type(2) h2, section:nth-of-type(2) h3, section:nth-of-type(2) p {
-        grid-area: text2;
-    }
-    main section:nth-of-type(3) h2, section:nth-of-type(3) h3, section:nth-of-type(3) p{
-        grid-area:text3;
-    } main section:nth-of-type(1) img {
-        grid-area: img1;
-    }  main section:nth-of-type(2) img {
-        grid-area: img2;
-    }  main section:nth-of-type(3) img {
-        grid-area: img3;
-    } main section {
-        width: 600px;
-    } .towns {
-        grid-template-columns: repeat(4, 300px);
-        grid-template-areas: 
-        "text1 text1 img1 img1"
-        "img2 img2 text2 text2"
-        "text3 text3 img3 img3";
-    }*/
+
     
 }

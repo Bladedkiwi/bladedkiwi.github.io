@@ -78,42 +78,35 @@ nav {
 }
 /********************************Index**********************************************/
 
-
- article {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "featpic" "ftext";
+a {
+    text-decoration: none;
+}.featpic img {
+    width: 100%;
+} .ftext {
     background-color: #E3E6EE;
     border-bottom: 3px inset #120D18;
-  }
-  main picture {
-    border-bottom: 3px inset #120D18;
-    width: 75%;
-  }
-  .towns {
+    padding: .5rem;
+} .towns {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "text1" "pic4" "text2" "pic5" "text3" "pic6";
-    justify-content: center;
-  } main section {
+} main section {
     text-align: center;
     background-color: #E3E6EE;
     padding: 1rem;
     border: 1px solid black;
-    margin: .25em;
-}.side {
+} .side {
     display: none;
 } .gutter {
     display: none;
-}
-
-  main section:nth-of-type(1) div { grid-area: text1; }
+} .sidetext {
+    display: none;
+} main section:nth-of-type(1) div { grid-area: text1; }
   
   main section:nth-of-type(2) div { grid-area: text2; }
   
-  main section:nth-of-type(2) div { grid-area: text3; }
+  main section:nth-of-type(3) div { grid-area: text3; }
   
   main section:nth-of-type(1) img { grid-area: pic4; }
   
@@ -175,6 +168,20 @@ nav {
     width:100%;
 } .recommend figure img {
     width: 100%;
+} .text4 {
+    background-color: #E3E6EE;
+    padding: 1rem;
+    padding-left: 0;
+    border-top: 3px solid #120D18;
+} .recommend figure {
+    width: 80%;
+    box-shadow: 3px 3px 3px 3px #383A3C;
+    border-radius: 10px;
+} .recommend figcaption {
+    padding: .5rem;
+    text-shadow: 1px 0 0 #383A3C;
+} .recommend figure img {
+    border-top-left-radius: 10px;
 }
 
 

@@ -18,24 +18,85 @@
         font-size: 100%;
     } 
 /********************************Index**************************************/
+.head-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "featpic sidetext" "ftext gutter";
+    grid-gap:3px;
+    background-color: #E3E6EE;
+    border-bottom: 3px inset #120D18;
+    padding:2em;
+  }
+  .featpic { 
+      box-shadow: 5px 5px 10px 5px #383A3C;
+      grid-area: featpic; }
+
+    .ftext { 
+        box-shadow: 5px 5px 10px 5px #383A3C;
+        grid-area: ftext; }
+
+    .sidetext { 
+        display: block;
+        text-align: right;
+        padding: 2.3rem;
+        grid-area: sidetext; 
+    } .sidetext img {
+        padding-right: 0;
+        margin-top:.5em;
+        box-shadow: 5px 5px 10px 5px #383A3C;
+    }
+
+    .side { 
+        grid-area: side;
+    }.side {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "gutter";
+        grid-area: side;
+      } 
+      .pic1 { grid-area: pic1; }
+      .pic2 { grid-area: pic2; }
+      .pic3 { grid-area: pic3; }
+      .gutter { 
+          display: grid;
+          grid-area: gutter; 
+}
 .towns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "text1 text2 text3" "pic4 pic5 pic6";
-    grid-area: content;
-  }
-  /*
-  .text1 { grid-area: text1; }
-  
-  .text2 { grid-area: text2; }
-  
-  .text3 { grid-area: text3; }
-  
-  .pic4 { grid-area: pic4; }
-  
-  .pic5 { grid-area: pic5; }
-  
-  .pic6 { grid-area: pic6; }
-  */
+  } .towns section:nth-of-type(1) {
+      display: grid;
+      grid-template-columns:1fr;
+      grid-template-rows: auto auto;
+      grid-template-areas: "text1"
+      "pic4";
+  } .towns section:nth-of-type(2) {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "text2"
+    "pic5";
+  }.towns section:nth-of-type(3) {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: "text3"
+    "pic6";
+} .text4 {
+      background-color: #E3E6EE;
+      padding: 1rem;
+      padding-left: 0;
+      border-top: 3px solid #120D18;
+} .recommend {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "pic7 pic8 pic9 pic10";
+    border-bottom: 3px solid #120D18; 
+} .recommend figure {
+    margin: 1em;
+}
+
 }
