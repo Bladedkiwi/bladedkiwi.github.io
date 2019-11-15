@@ -79,27 +79,23 @@ nav {
 /********************************Index**********************************************/
 
 
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "article" "content" "recommend";
-
-} article {
+ article {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.5fr;
+    grid-template-rows: auto;
     grid-template-areas: "featpic" "ftext";
-    grid-area: article;
+    background-color: #E3E6EE;
+    border-bottom: 3px inset #120D18;
+  }
+  main picture {
+    border-bottom: 3px inset #120D18;
+    width: 75%;
   }
   .towns {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas: "text1" "pic4" "text2" "pic5" "text3" "pic6";
-    grid-area: content;
-    width: 15%;
-    max-width: 420px;
     justify-content: center;
   } main section {
     text-align: center;
@@ -127,12 +123,15 @@ main {
  
   .recommend {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: .25fr 1fr;
-    grid-template-areas: "text4 text4 text4 text4" "pic7 pic8 pic9 pic10";
-    grid-area: recommend;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "text4" 
+    "pic7"
+    "pic8"
+    "pic9"
+    "pic10";
     background-color:#E3E6EE;
-    
   }
   
   .pic7 { grid-area: pic7; }
