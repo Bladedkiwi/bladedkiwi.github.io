@@ -77,16 +77,73 @@ nav {
     font-size: 75%;
 }
 /********************************Index**********************************************/
-.towns {
+
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "article" "content" "recommend";
+
+} article {
     display: grid;
-    grid-template: 1fr;
-} main section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-template-areas: "featpic" "ftext";
+    grid-area: article;
+  }
+  .towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "text1" "pic4" "text2" "pic5" "text3" "pic6";
+    grid-area: content;
+    width: 15%;
+    max-width: 420px;
+    justify-content: center;
+  } main section {
     text-align: center;
     background-color: #E3E6EE;
     padding: 1rem;
     border: 1px solid black;
     margin: .25em;
-} main section img {
+}.side {
+    display: none;
+} .gutter {
+    display: none;
+}
+
+  main section:nth-of-type(1) div { grid-area: text1; }
+  
+  main section:nth-of-type(2) div { grid-area: text2; }
+  
+  main section:nth-of-type(2) div { grid-area: text3; }
+  
+  main section:nth-of-type(1) img { grid-area: pic4; }
+  
+  main section:nth-of-type(2) img { grid-area: pic5; }
+  
+  main section:nth-of-type(3) img { grid-area: pic6; }
+ 
+  .recommend {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .25fr 1fr;
+    grid-template-areas: "text4 text4 text4 text4" "pic7 pic8 pic9 pic10";
+    grid-area: recommend;
+    background-color:#E3E6EE;
+    
+  }
+  
+  .pic7 { grid-area: pic7; }
+  
+  .pic8 { grid-area: pic8; }
+  
+  .pic9 { grid-area: pic9; }
+  
+  .pic10 { grid-area: pic10; }
+
+ main section img {
     max-width: 90%;
     box-shadow: 3px 3px 20px 6px darkslategray;
     margin: 1em;
@@ -101,13 +158,26 @@ nav {
 } main h2{
     text-shadow: 4px 0 #9BDBE8;
     border-bottom: 3px solid #383A3C;
-}
-h3 {
+    margin: .5rem;
+} h3 {
     font-size: .85rem;
     margin-top: .1rem;
     margin-bottom: 1rem;
     font-style: italic;
+}  figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+} figure img[data-src] {
+    filter: blur(0.2em);
+} figcaption {
+    font-style: italic;
+    font-size: 1.3rem;
+} .recommend figure {
+    width:100%;
+} .recommend figure img {
+    width: 100%;
 }
+
 
 
 

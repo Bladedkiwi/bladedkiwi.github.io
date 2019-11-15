@@ -19,7 +19,23 @@
     } 
 /********************************Index**************************************/
 .towns {
-    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
-} 
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "text1 text2 text3" "pic4 pic5 pic6";
+    grid-area: content;
+  }
+  /*
+  .text1 { grid-area: text1; }
+  
+  .text2 { grid-area: text2; }
+  
+  .text3 { grid-area: text3; }
+  
+  .pic4 { grid-area: pic4; }
+  
+  .pic5 { grid-area: pic5; }
+  
+  .pic6 { grid-area: pic6; }
+  */
 }

@@ -12,6 +12,7 @@ fetch(requestURL)
             //making each element: section,h2,p,p,image
             if (towns[i] == towns[1] || towns[i] == towns[4] || towns[i] == towns[5]) {
                 let card = document.createElement('section');
+                let text = document.createElement('div');
                 let h2 = document.createElement('h2');
                 let h3 = document.createElement('h3');
                 let p1 = document.createElement('p');
@@ -24,14 +25,15 @@ fetch(requestURL)
                 p1.textContent = 'Year Founded: ' + towns[i].yearFounded;
                 p2.textContent = 'Current Population: ' + towns[i].currentPopulation;
                 p3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
-                image.setAttribute('src', towns[i].photo);
+                image.setAttribute('src', 'img/' + towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' ' + towns[i].motto);
-
-                card.appendChild(h2);
-                card.appendChild(h3);
-                card.appendChild(p1);
-                card.appendChild(p2);
-                card.appendChild(p3);
+ 
+                text.appendChild(h2);
+                text.appendChild(h3);
+                text.appendChild(p1);
+                text.appendChild(p2);
+                text.appendChild(p3);
+                card.appendChild(text);
                 card.appendChild(image);
                 document.querySelector('div.towns').appendChild(card);
             }
