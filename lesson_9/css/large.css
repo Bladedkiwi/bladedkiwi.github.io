@@ -18,4 +18,8 @@
         font-size: 100%;
     } 
 /********************************Index**************************************/
+.towns {
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+} 
+
 }

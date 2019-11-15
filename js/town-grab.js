@@ -20,7 +20,7 @@ fetch(requestURL)
                 let image = document.createElement('img');
                 //adding content to each card
                 h2.textContent = towns[i].name;
-                h3.textContent = towns[i].motto;
+                h3.textContent = '"' + towns[i].motto + '"';
                 p1.textContent = 'Year Founded: ' + towns[i].yearFounded;
                 p2.textContent = 'Current Population: ' + towns[i].currentPopulation;
                 p3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;

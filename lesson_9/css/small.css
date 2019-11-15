@@ -77,4 +77,39 @@ nav {
     font-size: 75%;
 }
 /********************************Index**********************************************/
+.towns {
+    display: grid;
+    grid-template: 1fr;
+} main section {
+    text-align: center;
+    background-color: #E3E6EE;
+    padding: 1rem;
+    border: 1px solid black;
+    margin: .25em;
+} main section img {
+    max-width: 90%;
+    box-shadow: 3px 3px 20px 6px darkslategray;
+    margin: 1em;
+} p {
+    font-style: italic;
+    text-shadow: .3px 0 #120D18;
+    margin: .1em;
+    text-align: start;
+    font-size: .9rem;
+    padding-left: 7%;
+    
+} main h2{
+    text-shadow: 4px 0 #9BDBE8;
+    border-bottom: 3px solid #383A3C;
+}
+h3 {
+    font-size: .85rem;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+
+
+
 
