@@ -10,7 +10,7 @@ fetch(requestURL)
         //looping through each town, for the cards
         for (let i = 0; i < towns.length; i++) {
             //making each element: section,h2,p,p,image
-            if (towns[i] == towns[1] || towns[i] == towns[4] || towns[i] == towns[5]) {
+            if (towns[i].name == 'Fish Haven' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') {
                 let card = document.createElement('section');
                 let text = document.createElement('div');
                 let h2 = document.createElement('h2');
@@ -27,7 +27,7 @@ fetch(requestURL)
                 p3.textContent = 'Annual Rain Fall: ' + towns[i].averageRainfall;
                 image.setAttribute('src', 'img/' + towns[i].photo);
                 image.setAttribute('alt', towns[i].name + ' ' + towns[i].motto);
- 
+    
                 text.appendChild(h2);
                 text.appendChild(h3);
                 text.appendChild(p1);
