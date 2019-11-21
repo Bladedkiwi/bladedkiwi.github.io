@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kian Hyatt">
+    <meta name="description"
+        content="Weather site Project for CIT 230. Preston Idaho, where Tornadoes abound often and mobile homes become sculptures">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <title>CloudProud | Weather Site Project | CIT 230</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="pancakes">
+            <h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2>
+        </div>
+
+        <picture>
+            <!--Logo-->
+            <img src="../img/cloud_proud_logo.gif" alt="Proud looking cloud with a title of Cloud Proud">
+        </picture>
+        <section class="headings">
+            <!--Title-->
+            <h1>CloudProud Weather</h1>
+            <!--Motto-->
+            <div class="text-addons">Weather that never lets you down
+            </div>
+        </section>
+    </header>
+    <nav>
+        <!--Navigation-->
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9730; Menu</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_9/index.html">Home</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_10/preston-10.html" class="active">&#9925; Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <h2 class="special-heading">Preston: Idaho</h2>
+
+        <div class="herodiv">
+            <figure class="myphoto">
+                <img id="town" alt="Preston,Idaho - Grassy landscape with rolling hills" sizes="100vw"
+                    srcset="../img/preston_small_size.jpg 700w,
+                            ../img/preston_medium_size.jpg 1000w,
+                            ../img/preston_large_size.jpg 1500w"                             
+                            src="../img/preston_original_size.jpg">
+            </figure>
+            <section class="summary-stats">
+                <h2>Summary</h2>
+                <ul>
+                    <li>Currently: <span class="stats" id="condition"></span></li>
+                    <li>Temperature: <span class="stats" id="temp"></span><span class="stats">&#176;F</span></li>
+                    <li>Wind Chill: <span class="stats" id="chill"></span><span class="stats">&#176;F</span></li>
+                    <li>Humidity: <span class="stats" id="humid"></span></li>
+                    <li>Wind Speed: <span class="stats" id="speed"></span><span class="stats">mph</span></li>
+                </ul>
+            </section>
+
+        </div>
+        <section class="content">
+            <h2 class="text-addons">5 Day Forecast</h2>
+            <div class="forecast">
+                <div class="holding-box">
+                    <div id="day1">
+                        <h3>Wednesday</h3>
+                        <img id="icon1" src="#" alt="#">
+                            <p>High: <span id="high1"></span>&#176;F<br>Low: <span id="low1"></span>&#176;F</p>
+                        
+                    </div>
+
+                    <div id="day2">
+                        <h3>Thursday</h3>
+                        <img id="icon2" src="#" alt="#">
+                        <p>High: <span id="high2"></span>&#176;F<br>Low: <span id="low2"></span>&#176;F</p>
+                        
+                    </div>
+
+
+                    <div id="day3">
+                        <h3>Friday</h3>
+                        <img id="icon3" src="#" alt="#">
+                        <p>High: <span id="high3"></span>&#176;F<br>Low: <span id="low3"></span>&#176;F</p>
+                    </div>
+
+                    <div id="day4">
+                        <h3>Saturday</h3>
+                        <img id="icon4" src="#" alt="#">
+                        <p>High: <span id="high4"></span>&#176;F<br>Low: <span id="low4"></span>&#176;F</p>
+                    </div>
+
+                    <div id="day5">
+                        <h3>Sunday</h3>
+                        <img id="icon5" src="#" alt="#">
+                        <p>High: <span id="high5"></span>&#176;F<br>Low: <span id="low5"></span>&#176;F</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article class="content">
+            <h2 class="text-addons">Tornados on the Rise</h2>
+            <p class="text-addons"><i>By Storma Brue</i></p>
+            <p>Ever notice the way you know every detail of your basement? According to a scientific study from 2015,
+                this particular area has seen an increase in tornadoes over the past years by fifty percent! Everyone
+                seems to be running for their basements to protect themselves from the storms. Mobile homes have become
+                a thing of the past, because the tornadoes keep throwing them across the landscape. People now know that
+                it’s simply cheaper to buy a home with a basement, than risk the weather. According to Joe Smoe, the
+                recent buyer of a mobile home, said, “I know ‘dem clouds lik yer’ back of yer’ hand!” However, his
+                mobile home was the more recent addition to our cities mobile home pile-up. What are we to do, and can
+                we ever be safe from these tornadoes? <a href="https://en.wikipedia.org/wiki/Tornado">Click Here to
+                    continue reading...</a></p>
+            <img src="../img/boat-clouds.jpg" alt="Crashing waves with boats being turned over">
+        </article>
+
+
+        <div class="content" id="contact-us">
+            <picture id="map"><img src="../img/map-of-texas-coast-max.jpg" alt="Current wherabouts for Preston Idaho">
+            </picture>
+            <p> <span class="stats">Contact Us:</span>
+                <br><br>
+                35 N 10th S Preston, ID 83560
+                <br>
+                &#9742; (334) 835-5555
+                <br>
+                cloudproud@weknowweather.com<br>
+                Data Gathered from: <a href="https://www.openweathermap.org" target="_blank"></a>
+                <br><br>
+                <a class="footer-icons" href="http://www.facebook.com" target="_blank"><img
+                        src="../img/facebook-like.png" alt="Facebook Thumbs Up Link"></a>
+                <a class="footer-icons" href="http://www.pinterest.com" target="_blank"><img src="../img/pinterest.png"
+                        alt="Pinterest Link"></a>
+                <a class="footer-icons" href="http://www.twitter.com" target="_blank"><img src="../img/twitter.png"
+                        alt="Twitter Link"></a>
+                <a class="footer-icons" href="http://www.whatsapp.com" target="_blank"><img src="../img/whatsapp.png"
+                        alt="WhatsApp Link"></a>
+            </p>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div>
+            <p>
+                &copy; 2019 | Kian Hyatt | Illinois | <a href="https://www.byui.edu/online">BYUI Online
+                    Learning</a><br>Today's Date:
+                <script src="../js/current_date.js">
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src="../js/weather_api_towns.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/pancake-party.js"></script>
+    <script src="../js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {families: ['Arimo','Righteous']}});
+        
+    </script>
+</body>
+
+</html>
