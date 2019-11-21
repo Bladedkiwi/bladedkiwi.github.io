@@ -16,7 +16,7 @@ fetch(forecastURL)
 
         for (let i = 0; i < jsObject.list.length; i++) {
             if (jsObject.list[i] == jsObject.list[7]) {
-                let iconsrc = 'https://openweathermap/img/w/' + jsObject.list[7].weather[0].icon + '.png';
+                let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[7].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[7].weather[0].description;
                 document.getElementById('high1').textContent = jsObject.list[7].main.temp_max;
                 document.getElementById('low1').textContent = jsObject.list[7].main.temp_min;
@@ -24,7 +24,7 @@ fetch(forecastURL)
                 document.getElementById('icon1').setAttribute('alt', iconalt);
              } 
              else if (jsObject.list[i] == jsObject.list[15]) {
-                let iconsrc = 'https://openweathermap/img/w/' + jsObject.list[15].weather[0].icon + '.png';
+                let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[15].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[15].weather[0].description;
                 document.getElementById('high2').textContent = jsObject.list[15].main.temp_max;
                 document.getElementById('low2').textContent = jsObject.list[15].main.temp_min;
@@ -32,7 +32,7 @@ fetch(forecastURL)
                 document.getElementById('icon2').setAttribute('alt', iconalt);
              }
              else if (jsObject.list[i] == jsObject.list[23]){
-                let iconsrc = 'https://openweathermap/img/w/' + jsObject.list[23].weather[0].icon + '.png';
+                let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[23].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[23].weather[0].description;
                 document.getElementById('high3').textContent = jsObject.list[23].main.temp_max;
                 document.getElementById('low3').textContent = jsObject.list[23].main.temp_min;
@@ -40,7 +40,7 @@ fetch(forecastURL)
                 document.getElementById('icon3').setAttribute('alt', iconalt);
              }
              else if (jsObject.list[i] == jsObject.list[31]){
-                let iconsrc = 'https://openweathermap/img/w/' + jsObject.list[31].weather[0].icon + '.png';
+                let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[31].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[31].weather[0].description;
                 document.getElementById('high4').textContent = jsObject.list[31].main.temp_max;
                 document.getElementById('low4').textContent = jsObject.list[31].main.temp_min;
@@ -48,7 +48,7 @@ fetch(forecastURL)
                 document.getElementById('icon4').setAttribute('alt', iconalt);
              }
              else if (jsObject.list[i] == jsObject.list[39]){
-                let iconsrc = 'https://openweathermap/img/w/' + jsObject.list[39].weather[0].icon + '.png';
+                let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[39].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[39].weather[0].description;
                 document.getElementById('high5').textContent = jsObject.list[39].main.temp_max;
                 document.getElementById('low5').textContent = jsObject.list[39].main.temp_min;
