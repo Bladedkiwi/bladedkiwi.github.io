@@ -18,8 +18,8 @@ fetch(forecastURL)
                 let weekday = document.createElement('h3');
 
                 weekday.textContent = nameOfDay;
-                p1.textContent = 'High: ' +  jsObject.list[i].main.temp_max + '&#176;F';
-                p2.textContent = 'Low: ' +  jsObject.list[i].main.temp_min + '&#176;F';
+                p1.innerHTML = 'High: ' +  jsObject.list[i].main.temp_max + '&#176;F';
+                p2.innerHTML = 'Low: ' +  jsObject.list[i].main.temp_min + '&#176;F';
                 image.setAttribute('src', iconsrc);
                 image.setAttribute('alt', iconalt);
                 
