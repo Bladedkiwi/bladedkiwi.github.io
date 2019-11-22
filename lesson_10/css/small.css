@@ -1,5 +1,5 @@
 /***********************************Headings/Footer/Body******************************/
-h1,h2 {
+h1,h2,h3 {
     font-family: 'Righteous', cursive;
     font-size: 1.5rem;
     color: #120D18;  
@@ -78,16 +78,18 @@ li {
     background-color: #E3E6EE;
     color: #120D18;
     border: 5px outset #120D18;
-    border-radius: 3px;
     margin: .5em;
     padding: .3em;
-} section.content {
+} .forecast {
     display: none;
 } article img {
     max-width: 100%;
-} .herodiv{
+} .herodiv {
     position: relative;
     margin: 10px auto;
+    overflow: hidden;
+} .town-photo {
+    margin: .5em;
 } .summary-stats{
     position: absolute;
     top: 1.3em;
@@ -97,16 +99,24 @@ li {
     box-shadow: 0 0 30px #383A3C;
     padding: .7rem;
     opacity: .8;
+} .summary-stats h2 {
+    color: #120D18;
+    border-bottom: 4px solid #120D18;
+    text-shadow: .3px .3px #E3E6EE;
 } .stats {
     font-weight: bolder;
     font-style: italic;
+    text-shadow: .4px .4px #9BDBE8;
+} .summary-stats li {
+    font-weight: bold;
+    text-align: start;
+    text-shadow: .2px .2px #E3E6EE;
 } #contact-us {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
     padding: .6em;
-}#map {
+} #map {
     display: none;
 } #town {
     max-width: 100%;
@@ -128,3 +138,5 @@ li {
     letter-spacing: .1rem;
     font-size: 75%;
 }
+
+

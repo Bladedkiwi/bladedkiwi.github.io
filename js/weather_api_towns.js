@@ -7,9 +7,9 @@ fetch(weatherURL)
         const wSpeed = jsObject.wind.speed;
         const windChill = getWindChill(tempF,wSpeed);
         document.getElementById('condition').textContent = jsObject.weather[0].description;
-        document.getElementById('humid').textContent = jsObject.main.humidity;
-        document.getElementById('temp').textContent = jsObject.main.temp;
-        document.getElementById('speed').textContent = jsObject.wind.speed;
+        document.getElementById('humid').textContent = Math.floor(jsObject.main.humidity);
+        document.getElementById('temp').textContent = Math.floor(jsObject.main.temp);
+        document.getElementById('speed').textContent = Math.floor(jsObject.wind.speed);
         document.getElementById('chill').textContent = windChill;
 
     });

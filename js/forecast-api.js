@@ -9,7 +9,6 @@ fetch(forecastURL)
                 let card = document.createElement('section');
                 let image = document.createElement('img');
                 let p1 = document.createElement('p');
-                let p2 = document.createElement('p');
                 let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[i].weather[0].description;
                 let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
@@ -18,15 +17,13 @@ fetch(forecastURL)
                 let weekday = document.createElement('h3');
 
                 weekday.textContent = nameOfDay;
-                p1.innerHTML = 'High: ' +  jsObject.list[i].main.temp_max + '&#176;F';
-                p2.innerHTML = 'Low: ' +  jsObject.list[i].main.temp_min + '&#176;F';
+                p1.innerHTML = 'High: ' +  Math.floor(jsObject.list[i].main.temp_max) + '&#176;F' + '<br>' + 'Low: ' +  Math.floor(jsObject.list[i].main.temp_min) + '&#176;F';
                 image.setAttribute('src', iconsrc);
                 image.setAttribute('alt', iconalt);
                 
                 card.appendChild(weekday);
                 card.appendChild(image);
                 card.appendChild(p1);
-                card.appendChild(p2);
 
                 document.querySelector('div.forecast').appendChild(card);
             }
