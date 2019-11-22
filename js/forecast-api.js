@@ -23,7 +23,7 @@ fetch(forecastURL)
                 image.setAttribute('src', iconsrc);
                 image.setAttribute('alt', iconalt);
                 
-                card.appendChild(weekday)
+                card.appendChild(weekday);
                 card.appendchild(image);
                 card.appendchild(p1);
                 card.appendchid(p2);
