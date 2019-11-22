@@ -9,7 +9,7 @@ fetch(weatherURL)
         document.getElementById('condition').textContent = jsObject.weather[0].description;
         document.getElementById('humid').textContent = jsObject.main.humidity;
         document.getElementById('temp').textContent = jsObject.main.temp;
-        document.getElementById('speed').textContent = jsObject.main.speed;
+        document.getElementById('speed').textContent = jsObject.wind.speed;
         document.getElementById('chill').textContent = windChill;
 
     });
