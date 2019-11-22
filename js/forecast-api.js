@@ -24,9 +24,9 @@ fetch(forecastURL)
                 image.setAttribute('alt', iconalt);
                 
                 card.appendChild(weekday);
-                card.appendchild(image);
-                card.appendchild(p1);
-                card.appendchid(p2);
+                card.appendChild(image);
+                card.appendChild(p1);
+                card.appendChild(p2);
 
                 document.querySelector('div.forecast').appendChild(card);
             }
