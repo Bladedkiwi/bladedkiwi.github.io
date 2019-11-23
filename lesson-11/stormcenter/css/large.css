@@ -17,20 +17,12 @@
         letter-spacing: .2rem;
         font-size: 100%;
     } 
-    /****************************Gallery***********************************/
-    figure:hover {
-        transform: scale(1.4);
-        transition: 500ms;
-        box-shadow: 0px 0px 30px #E3E6EE;
-        z-index: 1;
-    } 
     /**************************StormCenter**********************************/
-    form label.subButton{
+    form {
+        width: 50vw;
+    } form label.subButton{
         padding: .4rem 0;
     } form fieldset {
         margin: .5rem 10rem .8rem .5rem;
-    } textarea#commentBox {
-        height: 4em;
-        width: 50em;
     }
 }

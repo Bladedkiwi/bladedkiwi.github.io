@@ -138,5 +138,9 @@ li {
     letter-spacing: .1rem;
     font-size: 75%;
 }
+/***********************Upcoming************************************/
+.upcoming {
+    text-align: center;
+}
 
 

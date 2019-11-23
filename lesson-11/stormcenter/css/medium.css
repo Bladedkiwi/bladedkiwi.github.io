@@ -21,10 +21,8 @@
     } .navigation li:nth-of-type(1) {
         display: none;
     }
-    /****************************Gallery***********************************/
-    figcaption {
-        font-size: 1.4rem;
-    }
     /**************************StormCenter**********************************/
-
+    form {
+        width: 75vw;
+    }
 }

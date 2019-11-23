@@ -38,12 +38,16 @@
         width: 100%;
     } #map {
         display: block;
+    } #map img {
+        border: 2px solid #383A3C;
+        box-shadow: 0 0 10px #383A3C;
     }
 /*******************Preston Grid Forecast*********************/
 .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    grid-area: forecast;
     justify-content: center;
     background: linear-gradient(#383A3C, #9BDBE8, #888D91);
     border: 3px outset #120D18;
@@ -68,6 +72,13 @@
     background-color: #120D18;
     letter-spacing: .1rem;
 }
-
-
+/*****************************Upcoming Events***************/
+.grid-box {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'upcoming forecast';
+} .upcoming {
+    grid-area: upcoming;
+}
 }

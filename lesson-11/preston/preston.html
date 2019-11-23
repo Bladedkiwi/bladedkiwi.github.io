@@ -69,8 +69,10 @@
                 </ul>
             </section>
         </div>
-        
+        <div class="grid-box">
+            <div class="upcoming"></div>"
             <div class="forecast"></div>
+        </div>
         
 
         <article class="content">
@@ -85,7 +87,11 @@
                 mobile home was the more recent addition to our cities mobile home pile-up. What are we to do, and can
                 we ever be safe from these tornadoes? <a href="https://en.wikipedia.org/wiki/Tornado">Click Here to
                     continue reading...</a></p>
-            <img src="../../img/boat-clouds.jpg" alt="Crashing waves with boats being turned over">
+            <img sizes="100vw" alt="Crashing waves with boats being turned over"
+                srcset="../../img/cloudy-boat-small.jpg 700w,
+                ../../img/cloudy-boat-medium.jpg 1000w,
+                ../../img/cloudy-boat-large.jpg 1500w"
+                src="../../img/cloudy-boat-large.jpg">
         </article>
 
 
@@ -124,11 +130,11 @@
             </p>
         </div>
     </footer>
-    <script src="../js/weather_api_towns.js"></script>
-    <script src="../js/forecast-api.js"></script>
-    <script src="../js/menu.js"></script>
-    <script src="../js/pancake-party.js"></script>
-    <script src="../js/windchill.js"></script>
+    <script src="../../js/weather_api_towns.js"></script>
+    <script src="../../js/forecast-api.js"></script>
+    <script src="../../js/menu.js"></script>
+    <script src="../../js/pancake-party.js"></script>
+    <script src="../../js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
     WebFont.load({
