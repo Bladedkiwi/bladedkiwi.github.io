@@ -1,0 +1,94 @@
+
+/***********************************Headings/Footer/Body******************************/
+h1,h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+    color: #120D18;  
+    margin: 0 0 0 3px;
+} header, footer {
+    width: 100%;
+    background-color:#9BDBE8;          
+    font-size: .85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} footer{
+    border-width: 5px 0px 0px;
+    border-style: groove;
+    border-color: #383A3C;
+} header img {
+    width: 110px;
+    height: auto;
+} .headings {
+    display: flex;
+    flex-direction: column;
+} body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #383A3C;
+} 
+/************************************NAVIGATION BAR***********************************/
+nav {
+    background-color: #120D18;
+    color: #383A3C;
+} .navigation {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    border-style: groove;
+    border-color: #383A3C;
+    border-width: 3px 0px 3px;
+    margin: 0 auto;
+} .navigation li:first-child{
+    display: block;
+} .navigation li {
+    display: none;
+} .navigation a {
+    display: block;
+    color: #9BDBE8;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-weight: 800;
+} .navigation a:hover {
+    background-color:#E3E6EE;
+    color:#383A3C;
+} .active {
+    background-color: #888D91;
+    color: #E3E6EE;
+} .responsive li {
+    display: block;
+}
+/********************************* Special Pancake Awareness*************************/
+#pancakes {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #120D18;
+    box-shadow: 0 0 30px #E3E6EE;
+    opacity: .8;
+} #pancakes h2{
+    color: #E3E6EE;
+    padding: .2rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 75%;
+}
+/****************************Gallery***********************************/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+} figure {
+    background-color: #E3E6EE;
+    border: 5px outset #120D18;
+    text-align: center;
+} figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+} figure img[data-src] {
+    filter: blur(0.2em);
+} figcaption {
+    font-style: italic;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Kian Hyatt">
+    <meta name="description"
+        content="Web site for CIT 230. Home page for Preston Idaho, where Tornadoes abound often, and mobile homes become sculptures">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <title>CloudProud | Weather Site Project | CIT 230</title>
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="pancakes">
+            <h2>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h2>
+        </div>
+
+        <picture>
+            <!--Logo-->
+            <img src="../../img/cloud_proud_logo.gif" alt="Proud looking cloud with a title of Cloud Proud">
+        </picture>
+        <section class="headings">
+            <!--Title-->
+            <h1>CloudProud Weather</h1>
+            <!--Motto-->
+            <div class="text-addons">Weather that never lets you down
+            </div>
+        </section>
+    </header>
+    <nav>
+        <!--Navigation-->
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9730;
+                    Menu</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_11/index.html" class="active">&#9925; Home</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_11/preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_11/stormcenter.html">Storm Center</a>
+            </li>
+            <li><a href="https://bladedkiwi.github.io/lesson_11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--
+            Large view = three columns
+            Medium vie = alternating rows
+            small view = single column
+        -->
+        <div class="head-box">
+        <picture class="featpic">
+                <img src="../../img/feat_pic.jpg" alt="Snow Covered Landscape" sizes="100vw"
+                srcset="../../img/feat_pic_small.jpg 700w,
+                        ../../img/feat_pic_medium.jpg 1000w,
+                        ../../img/feat_pic.jpg 1500w">
+            </picture>
+            <div class="ftext"><a href="#"><h1>Cold Times ahead, are you ready for the blizzard that will...</h1></a></div>
+        <div class="sidetext"><h2>Global Conditions</h2>
+            <picture>
+                    <img src="../../data/placeholder-300x400.png" data-src="../../img/hot_cold.png" alt="Global Wind Directions">
+                </picture></div>
+                <div class="gutter"></div>
+    </div>
+
+        <div class="towns"></div>
+        <div class="text4"><h2>Recommended..</h2></div>
+        <div class="recommend">
+            <figure class="pic7">
+                <a href="#"><img src="../../data/placeholder-300x400.png" data-src="../../img/sick.jpg" alt="Person receiving vaccine shot"></a>
+                <figcaption>Gotten your vaccine,yet?...</figcaption>
+            </figure>
+            <figure class="pic8">
+                    <a href="#"><img src="../../data/placeholder-300x400.png" data-src="../../img/sick2.jpg" alt="Sick person laying in bed"></a>
+                <figcaption>Ten tips to beat the flu...</figcaption>
+            </figure>
+            <figure class="pic9">
+                    <a href="#"><img src="../../data/placeholder-300x400.png" data-src="../../img/winter_sports.jpg" alt="Person snowboarding in the snow"></a>
+                <figcaption>Five ways to improve your skiing...</figcaption>
+            </figure>
+            <figure class="pic10">
+                    <a href="#"><img src="../../data/placeholder-300x400.png" data-src="../../img/energy.jpg" alt="Giant windmills providing town's energy"></a>
+                <figcaption>New windmills break records...</figcaption>
+            </figure>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <p>
+                <a href="https://ibb.co/TBr37vz">Small Wireframe</a><br>
+                <a href="https://ibb.co/gZXxrfP">Medium Wireframe</a><br>
+                <a href="https://ibb.co/xSMP0B3">Large Wireframe</a><br>
+                &copy; 2019 | Kian Hyatt | Illinois | <a href="https://www.byui.edu/online">BYUI Online
+                    Learning</a><br>Today's Date:
+                <script src="../../js/current_date.js">
+                </script>
+            </p>
+        </div>
+    </footer>
+    <script src="../../js/lloading.js"></script>
+    <script src="../../js/town-grab.js"></script>
+    <script src="../../js/menu.js"></script>
+    <script src="../../js/pancake-party.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: { families: ['Arimo', 'Righteous'] }
+        });
+
+    </script>
+</body>
+
+</html>

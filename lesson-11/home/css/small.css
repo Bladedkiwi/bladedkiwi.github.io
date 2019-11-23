@@ -1,0 +1,191 @@
+
+/***********************************Headings/Footer/Body******************************/
+h1,h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+    color: #120D18;  
+    margin: 0 0 0 3px;
+} header, footer {
+    width: 100%;
+    background-color:#9BDBE8;          
+    font-size: .85em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} footer{
+    border-width: 5px 0px 0px;
+    border-style: groove;
+    border-color: #383A3C;
+} header img {
+    width: 110px;
+    height: auto;
+} .headings {
+    display: flex;
+    flex-direction: column;
+    color: #120D18;
+    text-shadow: 5px 0 #9BDBE8;
+} body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #383A3C;
+} 
+/************************************NAVIGATION BAR***********************************/
+nav {
+    background-color: #120D18;
+    color: #383A3C;
+} .navigation {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    border-style: groove;
+    border-color: #383A3C;
+    border-width: 3px 0px 3px;
+    margin: 0 auto;
+} .navigation li:first-child{
+    display: block;
+} .navigation li {
+    display: none;
+} .navigation a {
+    display: block;
+    color: #9BDBE8;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-weight: 800;
+} .navigation a:hover {
+    background-color:#E3E6EE;
+    color:#383A3C;
+} .active {
+    background-color: #888D91;
+    color: #E3E6EE;
+} .responsive li {
+    display: block;
+}
+/********************************* Special Pancake Awareness*************************/
+#pancakes {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #120D18;
+    box-shadow: 0 0 30px #E3E6EE;
+    opacity: .8;
+} #pancakes h2{
+    color: #E3E6EE;
+    padding: .2rem;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 75%;
+}
+/********************************Index**********************************************/
+
+a {
+    text-decoration: none;
+}.featpic img {
+    width: 100%;
+} .ftext {
+    background-color: #E3E6EE;
+    border-bottom: 3px inset #120D18;
+    padding: .5rem;
+} .towns {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "text1" "pic4" "text2" "pic5" "text3" "pic6";
+} main section {
+    text-align: center;
+    background-color: #E3E6EE;
+    padding: 1rem;
+    border: 1px solid black;
+} .side {
+    display: none;
+} .gutter {
+    display: none;
+} .sidetext {
+    display: none;
+} main section:nth-of-type(1) div { grid-area: text1; }
+  
+  main section:nth-of-type(2) div { grid-area: text2; }
+  
+  main section:nth-of-type(3) div { grid-area: text3; }
+  
+  main section:nth-of-type(1) img { grid-area: pic4; }
+  
+  main section:nth-of-type(2) img { grid-area: pic5; }
+  
+  main section:nth-of-type(3) img { grid-area: pic6; }
+ 
+  .recommend {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "text4" 
+    "pic7"
+    "pic8"
+    "pic9"
+    "pic10";
+    background-color:#E3E6EE;
+  }
+  
+  .pic7 { grid-area: pic7; }
+  
+  .pic8 { grid-area: pic8; }
+  
+  .pic9 { grid-area: pic9; }
+  
+  .pic10 { grid-area: pic10; }
+
+ main section img {
+    max-width: 90%;
+    box-shadow: 3px 3px 20px 6px darkslategray;
+    margin: 1em;
+} p {
+    font-style: italic;
+    text-shadow: .3px 0 #120D18;
+    margin: .1em;
+    text-align: start;
+    font-size: .9rem;
+    padding-left: 7%;
+    
+} main h2{
+    text-shadow: 4px 0 #9BDBE8;
+    border-bottom: 3px solid #383A3C;
+    margin: .5rem;
+} h3 {
+    font-size: .85rem;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}  figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+} figure img[data-src] {
+    filter: blur(0.2em);
+} figcaption {
+    font-style: italic;
+    font-size: 1.3rem;
+} .recommend figure {
+    width:100%;
+} .recommend figure img {
+    width: 100%;
+} .text4 {
+    background-color: #E3E6EE;
+    padding: 1rem;
+    padding-left: 0;
+    border-top: 3px solid #120D18;
+} .recommend figure {
+    width: 80%;
+    box-shadow: 3px 3px 3px 3px #383A3C;
+    border-radius: 10px;
+} .recommend figcaption {
+    padding: .5rem;
+    text-shadow: 1px 0 0 #383A3C;
+} .recommend figure img {
+    border-top-left-radius: 10px;
+}
+
+
+
+
+
+
