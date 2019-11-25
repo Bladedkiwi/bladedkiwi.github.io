@@ -42,8 +42,13 @@
         border: 2px solid #383A3C;
         box-shadow: 0 0 10px #383A3C;
     }
-/*******************Preston Grid Forecast*********************/
-.forecast {
+/*******************Preston Grid Forecast/Upcoming*********************/
+.grid-box {
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'upcoming forecast';
+} .forecast {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -51,10 +56,8 @@
     justify-content: center;
     background: linear-gradient(#383A3C, #9BDBE8, #888D91);
     border: 3px outset #120D18;
-    margin: .5em;
+    margin: .5em 0 .5em;
 } .forecast section {
-    justify-content: center;
-    align-content: center;
     text-align: center; 
     border: 1px solid #383A3C;  
 } .forecast p {
@@ -71,14 +74,7 @@
     border-bottom: 5px outset #383A3C;
     background-color: #120D18;
     letter-spacing: .1rem;
-}
-/*****************************Upcoming Events***************/
-.grid-box {
-    display: grid;
-    grid-template-columns: 0.5fr 1.5fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 'upcoming forecast';
 } .upcoming {
     grid-area: upcoming;
-}
+    border: 3px outset #120D18;
 }

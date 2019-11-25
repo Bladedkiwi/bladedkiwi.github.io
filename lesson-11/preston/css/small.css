@@ -37,7 +37,9 @@ h1,h2,h3 {
 } body {
     font-family: 'Arimo', sans-serif;
     background-color: #383A3C;
-} 
+} header a {
+    text-decoration: none;
+}
 /*************************NAVIGATION BAR*****************************/
 nav {
     background-color: #120D18;
@@ -140,7 +142,28 @@ li {
 }
 /***********************Upcoming************************************/
 .upcoming {
-    text-align: center;
+    justify-content: center;
+    background: linear-gradient(#383A3C, #9BDBE8, #888D91);
+    margin: .5em 0 .5em;
+} .upcoming section {
+    text-align: center; 
+    border: 1px solid #383A3C;  
+} .upcoming p {
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+    border-top: 3px solid #383A3C;
+    padding: .5rem;
+    color: #383A3C;
+    text-shadow: .3px .3px #9BDBE8;
+} .upcoming h3 {
+    color: #9BDBE8;
+    text-shadow: 3px 3px #383A3C;
+    margin: 0;
+    border-bottom: 5px outset #383A3C;
+    background-color: #120D18;
+    letter-spacing: .1rem;
+}
+    
 }
 
 

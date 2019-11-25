@@ -25,7 +25,9 @@ h1,h2 {
 } body {
     font-family: 'Arimo', sans-serif;
     background-color: #383A3C;
-} 
+} header a {
+    text-decoration: none;
+}
 /************************************NAVIGATION BAR***********************************/
 nav {
     background-color: #120D18;
