@@ -6,7 +6,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
         for (let i=0; i<towns.length; i++) {
-            if (towns[i].name == 'Preston') {
+            if (towns[i].name == 'Soda Springs') {
                 let card = document.createElement('section');
                 let h3 = document.createElement('h3');
                 let p1 = document.createElement('p');
@@ -27,10 +27,3 @@ fetch(requestURL)
 
             }
         }});
-
-
-
-
-
-
-    });
