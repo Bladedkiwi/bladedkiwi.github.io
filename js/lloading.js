@@ -2,7 +2,7 @@
 const allImages = document.querySelectorAll('img[data-src]');
 //parameters for Intersectional Observer
 const imgAccents = {
-    threshold: 0,
+    threshold: 1,
     rootMargin: "0px 0px 50px 0px"
 };
 //Setting the grounds for Intersection Observer
