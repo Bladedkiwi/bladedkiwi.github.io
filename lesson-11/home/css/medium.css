@@ -11,7 +11,9 @@
         border-style: groove;
         border-color: #383A3C;
         margin: 0 auto;
-    } 
+    } .text-addons {
+        font-size: 1.2rem;
+    }
     /*************************NAVIGATION BAR*****************************/
      .navigation {
         display: flex;

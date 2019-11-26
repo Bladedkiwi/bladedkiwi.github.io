@@ -15,6 +15,16 @@ h1,h2 {
     border-width: 5px 0px 0px;
     border-style: groove;
     border-color: #383A3C;
+} .text-addons {
+    color: #383A3C;
+    margin: .3rem 0 .1rem;
+    padding-right: .4rem;
+    font-style: italic;
+    border-top: 2px solid #383A3C;
+    text-shadow: .2px 0 #383A3C;
+    font-size: .85rem;
+} header h1 {
+    margin: -7px;
 } header img {
     width: 110px;
     height: auto;
@@ -28,6 +38,10 @@ h1,h2 {
     background-color: #383A3C;
 } header a {
     text-decoration: none;
+}  #footer-heading {
+    font-weight: bolder;
+    font-style: italic;
+    border-bottom: 2px solid #383A3C;
 }
 /************************************NAVIGATION BAR***********************************/
 nav {

@@ -21,6 +21,16 @@ h1,h2 {
 } .headings {
     display: flex;
     flex-direction: column;
+}  .text-addons {
+    color: #383A3C;
+    margin: .3rem 0 .1rem;
+    padding-right: .4rem;
+    font-style: italic;
+    border-top: 2px solid #383A3C;
+    text-shadow: .2px 0 #383A3C;
+    font-size: .85rem;
+} header h1 {
+    margin: -7px;
 } body {
     font-family: 'Arimo', sans-serif;
     background-color: #383A3C;
@@ -32,6 +42,10 @@ h1,h2 {
     font-size: 1.5rem;
     padding: .5rem;
     letter-spacing: .4rem;
+}   #footer-heading {
+    font-weight: bolder;
+    font-style: italic;
+    border-bottom: 2px solid #383A3C;
 }
 /************************************NAVIGATION BAR***********************************/
 nav {
