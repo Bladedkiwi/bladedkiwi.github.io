@@ -27,10 +27,3 @@ fetch(requestURL)
 
             }
         }});
-
-
-
-
-
-
-    });
