@@ -13,6 +13,8 @@
         margin: 0 auto;
     } .text-addons {
         font-size: 1.2rem;
+    } .text_adjust {
+        padding:0;
     }
     /*************************NAVIGATION BAR*****************************/
      .navigation {

@@ -11,6 +11,8 @@
         border-color: #383A3C;
     } header img {
         width: 100%;
+    } article p {
+        font-size: .9rem;
     }
     /****************************Pancakes***********************************/
     #pancakes h2 {

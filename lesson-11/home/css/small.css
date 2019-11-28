@@ -42,6 +42,27 @@ h1,h2 {
     font-weight: bolder;
     font-style: italic;
     border-bottom: 2px solid #383A3C;
+} .content {
+    display: block;
+    background-color: #E3E6EE;
+    color: #120D18;
+    margin: .3em 0 .3em;
+    padding: .3em;
+} article img {
+    width: 100%;
+} article p {
+    font-style: inherit;
+    margin: auto;
+    padding-left: 0;
+    padding: .5rem;
+    font-family: 'Arimo', sans-serif;
+    text-shadow: none;
+} .text_adjust {
+    color:#120D18;
+    margin: 0 0 0 3px;
+    width: 99%;
+    text-shadow: none;
+    padding:.5rem;
 }
 /************************************NAVIGATION BAR***********************************/
 nav {
@@ -160,8 +181,7 @@ a {
     margin: .1em;
     text-align: start;
     font-size: .9rem;
-    padding-left: 7%;
-    
+    padding-left: 7%;   
 } main h2{
     text-shadow: 4px 0 #9BDBE8;
     border-bottom: 3px solid #383A3C;
