@@ -91,7 +91,7 @@ nav {
     background-color:#E3E6EE;
     color:#383A3C;
 } .active {
-    background-color: #888D91;
+    background-color: rgba(136, 141, 145, 0.479);
     color: #E3E6EE;
 } .responsive li {
     display: block;
