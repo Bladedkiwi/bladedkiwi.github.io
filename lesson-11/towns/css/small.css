@@ -107,7 +107,7 @@ li {
     position: absolute;
     top: 1.3em;
     left: 2em;
-    background: radial-gradient(#E3E6EE,#383A3C);
+    background: radial-gradient(#E3E6EE,rgba(136, 141, 145, 0.479));
     border: 3px dashed #120D18;
     box-shadow: 0 0 30px #383A3C;
     padding: .7rem;
