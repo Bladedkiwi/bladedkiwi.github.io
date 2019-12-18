@@ -183,6 +183,73 @@ body a {
   color: #d1a162;
   text-shadow: 1px 1px 1px black; }
 
+/*******Temples - Grid********/
+.temple-grid {
+  grid-row: 2;
+  grid-column: 1 / -1;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "img1 info1"  "item1 info1"  "img2 info2"  "item2 info2"  "img3 info3"  "item3 info3" "img4 info4"  "item4 info4"; }
+
+.temple-grid h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  font-style: italic;
+  border-bottom: 3px solid #800000;
+  color: #800000;
+  box-shadow: 0px 3px 0px 0px #d1a162;
+  text-shadow: 7px 2px 2px #d1a162; }
+
+.img1, .img2, .img3, .img4 {
+  grid-column: 1;
+  width: 200px; }
+
+.img1 {
+  grid-area: img1; }
+
+.img2 {
+  grid-area: img2; }
+
+.img3 {
+  grid-area: img3; }
+
+.img4 {
+  grid-area: img4; }
+
+.item1 {
+  grid-area: item1; }
+
+.item2 {
+  grid-area: item2; }
+
+.item3 {
+  grid-area: item3; }
+
+.item4 {
+  grid-area: item4; }
+
+.temple-grid div:nth-of-type(1) {
+  grid-area: info1;
+  overflow: auto;
+  height: 600px; }
+
+.temple-grid div:nth-of-type(2) {
+  grid-area: info2;
+  overflow: auto;
+  height: 600px; }
+
+.temple-grid div:nth-of-type(3) {
+  grid-area: info3;
+  overflow: auto;
+  height: 600px; }
+
+.temple-grid div:nth-of-type(4) {
+  grid-area: info4;
+  overflow: auto;
+  height: 600px; }
+
 /*******FOOTER******/
 footer {
   background-color: #800000;
@@ -222,12 +289,10 @@ footer h3 {
   font-size: 2rem;
   margin: 0; }
 
-/*******FORM******/
 @media only screen and (min-width: 32.5em) {
   /*******HEADER******/
   .over-box {
     grid-template-columns: 300px 150px;
-    top: 80%;
     right: 4.5rem; }
 
   h1, h2 {
@@ -269,7 +334,7 @@ footer h3 {
   /*******MAIN********/
   .body-grid {
     grid-template-columns: .75fr 3fr 3fr 2fr;
-    grid-template-rows: .5fr 1fr .5fr .5fr; }
+    grid-template-rows: .2fr 1fr .2fr .1fr; }
 
   .summary-text {
     grid-column: 3;
@@ -304,4 +369,71 @@ footer h3 {
 
   /*******MAIN********/
   .summary-text p {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+
+  /*******TEMPLE*GRID********/
+  .temple-grid {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: .75fr 340px 3fr 2fr;
+    grid-template-areas: ". img1 item1 info1" ". img1 item1 info1"  ". img2 item2 info2"  ". img2 item2 info2"  ". img3 item3 info3"  ". img3 item3 info3"  ". img4 item4 info4"  ". img4 item4 info4"; }
+
+  .temple-grid h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    font-style: italic;
+    border-bottom: 3px solid #800000;
+    color: #800000;
+    box-shadow: 0px 3px 0px 0px #d1a162;
+    text-shadow: 7px 2px 2px #d1a162; }
+
+  .img1, .img2, .img3, .img4 {
+    grid-column: 1;
+    width: 50vh; }
+
+  .img1 {
+    grid-area: img1; }
+
+  .img2 {
+    grid-area: img2; }
+
+  .img3 {
+    grid-area: img3; }
+
+  .img4 {
+    grid-area: img4; }
+
+  .item1 {
+    grid-area: item1; }
+
+  .item2 {
+    grid-area: item2; }
+
+  .item3 {
+    grid-area: item3; }
+
+  .item4 {
+    grid-area: item4; }
+
+  .temple-grid div:nth-of-type(1) {
+    grid-area: info1;
+    overflow: auto;
+    height: 600px; }
+
+  .temple-grid div:nth-of-type(2) {
+    grid-area: info2;
+    overflow: auto;
+    height: 600px; }
+
+  .temple-grid div:nth-of-type(3) {
+    grid-area: info3;
+    overflow: auto;
+    height: 600px; }
+
+  .temple-grid div:nth-of-type(4) {
+    grid-area: info4;
+    overflow: auto;
+    height: 600px; } }

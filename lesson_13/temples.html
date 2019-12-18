@@ -7,60 +7,185 @@
     <meta name="description"
         content="Final Project for CIT 230 | Temple Inn & Suites Hotel: Providing the ultimate rejuvenation">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <link rel="shortcut icon" href="img/moroni-fav.ico">
     <title>Temple Inn & Suites | Home</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <nav>
+    <nav id="sliding-nav">
         <!--Navigation-->
         <picture>
             <!--Logo-->
-            <img src="img/temple_inn_logo.svg"
-                    alt="Logo for Temple Inn & Suites">
+            <img class="nav-logo" src="img/temple_logo.svg" alt="Logo for Temple Inn & Suites">
         </picture>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9826;
                     Menu</a></li>
-            <li><a href="https://bladedkiwi.github.io/lesson_13/index.html" class="active">Home</a></li>
-            <li><a href="https://bladedkiwi.github.io/lesson_13/temples.html">Temples</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_13/index.html">Temple Inn & Suites</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_13/temples.html" class="active">Locations</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/reservations.html">My Reservations</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/services.html">Services</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/about.html">About Us</a></li>
         </ul>
     </nav>
     <header>
-        <section class="over-img">
+        <picture>
+            <img id="img-banner" src="#" alt="Colorful City next to water, including a bridge">
+        </picture>
+        <section class="over-box">
             <!--Title-->
-            <h1>Temple Inn & Suites</h1>
-            <!--Call to Action/Motto-->
-            <div><p>Your Ultimate Rejuvenation <br>
-                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">&#10526;Book Now!</a></p>
+            <div class="over-text">
+                <!--Call to Action/Motto-->
+                <h1>Your Ultimate Rejuvenation<br>
+                    <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">&#10551;Book Now!</a></h1>
+            </div>
+            <div>
+                <a href="https://bladedkiwi.github.io/lesson_13/index.html">
+                    <picture>
+                        <!--Logo-->
+                        <img class="over-img" src="img/temple_inn_logo.png" alt="Logo for Temple Inn & Suites">
+                    </picture>
+                </a>
             </div>
         </section>
-        <a href="https://bladedkiwi.github.io/lesson_13/index.html">
-            <picture>
-                <!--Logo-->
-                <img src="img/temple_inn_logo.svg"
-                        alt="Logo for Temple Inn & Suites">
-            </picture>
-        </a>
     </header>
     <main>
+        <div class="body-grid">
+            <div class="review">
+                <h2>My Temple, my peace</h2>
+                <h3>Anyone ever</h3>
+            </div>
+            <div class="temple-grid">
+                <img class="img1" src="img/salt_lake.jpg" alt="Large building that's gray, and three dimensional">
+                <article class="item1">
+                    <h2>Salt Lake Temple</h2>
+                    <p>The temple that photos do not do justice for, the Salt Lake Temple. This temple is one of the
+                        largest temples standing at 288ft tall, and a total floor area of 253,000 square feet. As Jane
+                        Templegoeer reported, “I used to look at the photos of the Salt Lake Temple, and thought it was
+                        a cool temple. However, when I visited it and stood next to it. I was in awe. That temple was
+                        way larger than I ever expected. The door’s alone were ten times the size of my own door to the
+                        house.” After asking multiple others of their own experience with the fine temple, they agree
+                        with how massive and glorious it is. Next time you visit Salt Lake City, don’t forget to stand
+                        next to the massive temple and touch its awesome rough stone bricks.</p>
+                </article>
+                <img class="img2" src="img/nauvoo.jpg" alt="Large building on a hill">
+                <article class="item2">
+                    <h2>The Nauvoo Temple</h2>
+                    <p>The Saints of the Church of Jesus Christ of Ladder-day Saints stopped in Nauvoo, and considered
+                        this city to be their final resting spot. They built this temple like Kirtland, and used what
+                        they had.
+                        They included the same kinds of rooms as all temples have today. Sadly, the original temple was
+                        burned down due to a lot of people that really didn’t like the Saints. What temple we have today
+                        was rebuilt
+                        in 2002, and has beautiful lines just like the Kirtland Temple. One can notice the same single
+                        peak
+                        with Captain Moroni, and block like formation of the temple body. The Saints were very sad to
+                        have to
+                        leave this temple behind, but had faith in the Lord and made the trek to a new area soon to be
+                        called
+                        Salt Lake City.</p>
+                </article>
+                <img class="img3" src="img/draper.jpg" alt="Large pointy building with clouds and sun">
+                <article class="item3">
+                    <h2>The Draper Temple</h2>
+                    <p>This temple is tucked in the mountains, and dots one of the many temples In Utah. In the winter,
+                        it sparkles in the snow. Miles Highup says, “I just love visiting the Draper temple, because as
+                        you walk in to get to see the rest of the city miles around. When I see that, I always feel a
+                        deeper perspective and love for everyone.” He is right, as one walks to the temple, the view of
+                        the rest of the Utah valley is exquisite. This temple was dedicated during the year of 2009. It
+                        was built to relieve the overcrowding of other nearby temples. </p>
+                </article>
+                <img class="img4" src="img/timpanogos.jpg" alt="Large white building with bushes around">
+                <article class="item4">
+                    <h2>Mount Timpanogos Temple</h2>
+                    <p>This temple is like the Draper temple in that it is also set near the Mountains. However, unlike
+                        the Draper Temple, this temple was the second one built in Utah County. This temple was built in
+                        1995, and dedicated in 1996 by President Gordon B. Hinckley. Drivee Marington reported, “One of
+                        my favorite things about this temple, is walking up to it. First you think it’s just another
+                        temple, but not this one. It has that special glow as you walk up to it. I’m not sure if it’s
+                        the trees or bushes, or the shimmering stones of the temple, but it always feels like home when
+                        I come.” In fact, a local scientist tested the shimmer that comes off of the temple, and agrees
+                        that there must be something in the stone bricks that reflects light to all visitors that come.
+                    </p>
+                </article>
+            </div>
+
+            <!--Call to action-->
+            <div class="call-to-action">
+                <h2>Come join us, and find your inner happiness again!</h2>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">
+                    <h3>Book Here!</h3>
+                </a>
+            </div>
+
+            <!--Picture Feed for Rooms-->
+            <section class="figure-grid">
+                <h4>My Room Options:</h4>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">
+                    <figure><img src="img/rooms/thumbnail-1.jpg" alt="Vaulted Ceiling Bedroom">
+                        <figcaption>Studio Suite</figcaption>
+                    </figure>
+                </a>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">
+                    <figure><img src="img/rooms/thumbnail-2.jpg" alt="Couch and Bed, with lots of space">
+                        <figcaption>Multi-Family Suite</figcaption>
+                    </figure>
+                </a>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">
+                    <figure><img src="img/rooms/thumbnail-3.jpg" alt="Multi-story living room with dining room">
+                        <figcaption>Missionary Quarters</figcaption>
+                    </figure>
+                </a>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">
+                    <figure><img src="img/rooms/thumbnail-4.jpg" alt="Modern Bedroom with no space">
+                        <figcaption>Modern Suite</figcaption>
+                    </figure>
+                </a>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">
+                    <figure><img src="img/rooms/thumbnail-5.jpg" alt="Fancy Kitchen">
+                        <figcaption>Multi-Missionary Kitchen</figcaption>
+                    </figure>
+                </a>
+            </section>
+        </div>
 
     </main>
     <footer>
+        <form method='get' action="thanks.html" class="mini-form">
+            <fieldset>
+                <legend>Need more info?</legend>
+                <label class="mini-input">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}"
+                        required></label>
+                <label class="mini-input">Email*<input type="email" name="email" placeholder="name@example.com"
+                        required></label>
+                <label class="mini-input">Questions?<textarea id="commentBox" name="text" cols="10" rows="3"
+                        placeholder="Comments Here..."></textarea></label>
+                <label class="submission"><input type="Submit" value="Ask Away" class="subButton"></label>
+            </fieldset>
+        </form>
         <div>
+
+            <h3>Temple Inn & Suites</h3>
+            <a class="footer-icons" href="http://www.facebook.com" target="_blank"><img src="../img/facebook-like.png"
+                    alt="Facebook Thumbs Up Link"></a>
+            <a class="footer-icons" href="http://www.pinterest.com" target="_blank"><img src="../img/pinterest.png"
+                    alt="Pinterest Link"></a>
+            <a class="footer-icons" href="http://www.twitter.com" target="_blank"><img src="../img/twitter.png"
+                    alt="Twitter Link"></a>
+            <a class="footer-icons" href="http://www.whatsapp.com" target="_blank"><img src="../img/whatsapp.png"
+                    alt="WhatsApp Link"></a>
             <p>
                 &copy; 2019 | Kian Hyatt | Illinois | <a href="https://www.byui.edu/online">BYUI Online
                     Learning</a><br>Today's Date:
-                <script src="../../js/current_date.js">
+                <script src="js/current_date.js">
                 </script>
             </p>
         </div>
     </footer>
-    <script src="../../js/lloading.js"></script>
+    <script src="js/temple.js"></script>
+    <script src="js/cycler.js"></script>
+    <script src="../js/lloading.js"></script>
     <script src="js/menu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

@@ -9,6 +9,7 @@ fetch(forecastURL)
                 let card = document.createElement('section');
                 let image = document.createElement('img');
                 let p1 = document.createElement('p');
+                
                 let iconsrc = 'https://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '@2x' + '.png';
                 let iconalt = jsObject.list[i].weather[0].description;
                 let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];

@@ -1,7 +1,6 @@
 /*******HEADER******/
 .over-box {
     grid-template-columns: 300px 150px;
-    top: 80%;
     right: 4.5rem;
 } h1,h2 {
     font-size: 1.5rem;
@@ -37,7 +36,7 @@ nav {
 /*******MAIN********/
 .body-grid {
     grid-template-columns: .75fr 3fr 3fr 2fr;
-    grid-template-rows: .5fr 1fr .5fr .5fr;
+    grid-template-rows: .2fr 1fr .2fr .1fr;
 } .summary-text {
     grid-column: 3;
     grid-row: 2;

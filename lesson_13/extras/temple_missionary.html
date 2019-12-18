@@ -7,125 +7,119 @@
     <meta name="description"
         content="Final Project for CIT 230 | Temple Inn & Suites Hotel: Providing the ultimate rejuvenation">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../../img/favicon.ico">
+    <link rel="shortcut icon" href="img/moroni-fav.ico">
     <title>Temple Inn & Suites | Home</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <nav>
+    <nav id="sliding-nav">
         <!--Navigation-->
         <picture>
             <!--Logo-->
-            <img src="img/temple_inn_logo.svg"
-                    alt="Logo for Temple Inn & Suites">
+            <img class="nav-logo" src="img/temple_logo.svg" alt="Logo for Temple Inn & Suites">
         </picture>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9826;
                     Menu</a></li>
-            <li><a href="https://bladedkiwi.github.io/lesson_13/index.html" class="active">Home</a></li>
-            <li><a href="https://bladedkiwi.github.io/lesson_13/temples.html">Temples</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_13/index.html" class="active">Temple Inn & Suites</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_13/temples.html">Locations</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/reservations.html">My Reservations</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/services.html">Services</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/about.html">About Us</a></li>
         </ul>
     </nav>
     <header>
-        <section>
+        <picture>
+            <img id="img-banner" src="#" alt="Colorful City next to water, including a bridge">
+        </picture>
+        <section class="over-box">
             <!--Title-->
-                <h1>Temple Inn & Suites</h1>
-                <!--Motto-->
-                <div class="text-addons">Providing the Ultimate Rejuvenation
-                </div>
-        </section>
+            <div class="over-text">
+            <!--Call to Action/Motto-->
+                <h1>Your Ultimate Rejuvenation<br>
+                    <a href="https://bladedkiwi.github.io/lesson_13/reservations.html">&#10551;Book Now!</a></h1>
+            </div>
+            <div>
         <a href="https://bladedkiwi.github.io/lesson_13/index.html">
             <picture>
                 <!--Logo-->
-                <img src="img/temple_inn_logo.svg"
-                        alt="Logo for Temple Inn & Suites">
+                <img class="over-img" src="img/temple_inn_logo.png" alt="Logo for Temple Inn & Suites">
             </picture>
         </a>
+        </div>
+        </section>
     </header>
     <main>
-        <div class="head-box">
-            <picture class="featpic">
-                <img src="../../img/feat_pic.jpg" alt="Snow Covered Landscape" sizes="100vw" srcset="../../img/feat_pic_small.jpg 700w,
-                        ../../img/feat_pic_medium.jpg 1000w,
-                        ../../img/feat_pic.jpg 1500w">
-            </picture>
-            <div class="ftext"><a href="#start_article">
-                    <h1>Cold Times ahead, are you ready for the blizzard that will...</h1>
-                </a></div>
-            <div class="sidetext">
-                <h2>Global Conditions</h2>
-                <picture>
-                    <img src="../../img/hot_cold.png"
-                        alt="Global Wind Directions">
-                </picture>
+        <div class="body-grid">
+            <div class="review">
+                <h2>My home away from home</h2>
+                <h3>The New Papa Press</h3>
             </div>
-            <div class="gutter"></div>
-        </div>
+            <img class="summary-img" src="img/nauvoo.jpg" alt="#">
+            <article class="summary-text">            
+                <h2>The Nauvoo Temple</h2>
+                <p>The Saints of the Church of Jesus Christ of Ladder-day Saints stopped in Nauvoo, and considered this city
+                    to be their final resting spot. They built this temple like Kirtland, and used what they had. They
+                    included the same kinds of rooms as all temples have today. Sadly, the original temple was burned down
+                    due to a lot of people that really didn’t like the Saints. What temple we have today was rebuilt in
+                    2002, and has beautiful lines just like the Kirtland Temple. One can notice the same single peak with
+                    Captain Moroni, and block like formation of the temple body. The Saints were very sad to have to leave
+                    this temple behind, but had faith in the Lord and made the trek to a new area soon to be called Salt
+                    Lake City.</p>
+            </article>
+        
+        <!--Call to action-->
+            <div class="call-to-action">
+                <h2>Come join us, and find your inner happiness again!</h2>
+                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><h3>Book Here!</h3></a>
+            </div>
 
-        <div class="towns"></div>
-        <article class="content">
-            <a id="start_article">
-                <h2 class="text_adjust">Cold times ahead! Will it take us back to the stone age?</h2>
-                <p><i>by Brr Mmmaarrro</i></p>
-                <p>Our lovely StormCenter has detected the ultimate blizzard to be here within the week. Those that know
-                    of such event are frantically running to the grocery or hardware store to buy things like milk,
-                    bread, generators, board games, water, flashlights, batteries, and candles. It’s almost as if before
-                    the news for this storm, there house was completely barren. We suggest everyone add blankets and
-                    wood the list. This will be one storm to rule them all! Our resident scientist suggests that we not
-                    risk ourselves and travel south to warmer weather, and survive. However, that’s not practical and we
-                    know the risks of living in a cold area. So, get prepared everyone!</p>
-            </a>
-            <img sizes="50vw" alt="Snow everywhere with cars stuck" 
-            srcset="../../img/blizzard_cars_small.jpg 400w,
-                    ../../img/blizzard_cars_medium.jpg 800w,
-                    ../../img/blizzard_cars_large.jpg 1000w" src="../../img/blizzard_cars_large.jpg">
-        </article>
-        <div class="text4">
-            <h2>Recommended..</h2>
-        </div>
-        <div class="recommend">
-            <figure class="pic7">
-                <a href="https://www.cdc.gov/flu/prevent/keyfacts.htm" target="_blank"><img
-                        src="../../data/placeholder-300x400.png" data-src="../../img/sick.jpg"
-                        alt="Person receiving vaccine shot"></a>
-                <figcaption>Gotten your vaccine yet?...</figcaption>
-            </figure>
-            <figure class="pic8">
-                <a href="https://www.cdc.gov/flu/weekly/index.htm" target="_blank"><img
-                        src="../../data/placeholder-300x400.png" data-src="../../img/sick2.jpg"
-                        alt="Sick person laying in bed"></a>
-                <figcaption>Ten tips to beat the flu...</figcaption>
-            </figure>
-            <figure class="pic9">
-                <a href="https://en.wikipedia.org/wiki/Snowboarding"
-                    target="_blank"><img src="../../data/placeholder-300x400.png" data-src="../../img/winter_sports.jpg"
-                        alt="Person snowboarding in the snow"></a>
-                <figcaption>Five ways to improve your skiing...</figcaption>
-            </figure>
-            <figure class="pic10">
-                <a href="https://en.wikipedia.org/wiki/Windmill"
-                    target="_blank"><img src="../../data/placeholder-300x400.png" data-src="../../img/energy.jpg"
-                        alt="Giant windmills providing town's energy"></a>
-                <figcaption>New windmills break records...</figcaption>
-            </figure>
-        </div>
+        <!--Picture Feed for Rooms-->
+        <section class="figure-grid">
+            <h4>My Room Options:</h4>
+            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-1.jpg" alt="Vaulted Ceiling Bedroom"><figcaption>Studio Suite</figcaption></figure></a>
+            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-2.jpg" alt="Couch and Bed, with lots of space"><figcaption>Multi-Family Suite</figcaption></figure></a>
+            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-3.jpg" alt="Multi-story living room with dining room"><figcaption>Missionary Quarters</figcaption></figure></a>
+            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-4.jpg" alt="Modern Bedroom with no space"><figcaption>Modern Suite</figcaption></figure></a>
+            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-5.jpg" alt="Fancy Kitchen"><figcaption>Multi-Missionary Kitchen</figcaption></figure></a>
+        </section>
+    </div>
 
     </main>
     <footer>
+        <form method='get' action="thanks.html" class="mini-form">
+            <fieldset>
+                <legend>Need more info?</legend>
+                <label class="mini-input">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="mini-input">Email*<input type="email" name="email" placeholder="name@example.com"
+                            required></label>
+                <label class="mini-input">Questions?<textarea id="commentBox" name="text"
+                                cols="10" rows="3" placeholder="Comments Here..."></textarea></label>
+                                <label class="submission"><input type="Submit" value="Ask Away" class="subButton"></label>
+            </fieldset>
+        </form>
         <div>
+             
+                <h3>Temple Inn & Suites</h3>       
+                <a class="footer-icons" href="http://www.facebook.com" target="_blank"><img
+                        src="../img/facebook-like.png" alt="Facebook Thumbs Up Link"></a>
+                <a class="footer-icons" href="http://www.pinterest.com" target="_blank"><img src="../img/pinterest.png"
+                        alt="Pinterest Link"></a>
+                <a class="footer-icons" href="http://www.twitter.com" target="_blank"><img src="../img/twitter.png"
+                        alt="Twitter Link"></a>
+                <a class="footer-icons" href="http://www.whatsapp.com" target="_blank"><img src="../img/whatsapp.png"
+                        alt="WhatsApp Link"></a>
             <p>
                 &copy; 2019 | Kian Hyatt | Illinois | <a href="https://www.byui.edu/online">BYUI Online
                     Learning</a><br>Today's Date:
-                <script src="../../js/current_date.js">
+                <script src="js/current_date.js">
                 </script>
             </p>
         </div>
     </footer>
-    <script src="../../js/lloading.js"></script>
+    <script src="js/cycler.js"></script>
+    <script src="../js/lloading.js"></script>
     <script src="js/menu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

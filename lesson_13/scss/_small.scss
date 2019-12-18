@@ -155,6 +155,61 @@ body {
     color: $tan;
     text-shadow: 1px 1px 1px black;
 }
+/*******Temples - Grid********/
+.temple-grid {
+    grid-row:2;
+    grid-column: 1 / -1;
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "img1 info1" 
+    "item1 info1" 
+    "img2 info2" 
+    "item2 info2" 
+    "img3 info3" 
+    "item3 info3"
+    "img4 info4" 
+    "item4 info4";
+} .temple-grid h2 {
+    font-family: $heading;
+    font-weight: $heading-weight;
+    font-size: 1.5rem;
+    font-style: italic;
+    border-bottom: 3px solid $maroon;
+    color: $maroon;
+    box-shadow: 0px 3px 0px 0px $tan;
+    text-shadow: 7px 2px 2px $tan;
+} .img1, .img2, .img3, .img4 {
+    grid-column: 1;
+    width: 200px;
+} 
+.img1 {grid-area: img1}
+.img2 {grid-area: img2}
+.img3 {grid-area: img3}
+.img4 {grid-area: img4}
+.item1 {grid-area: item1}
+.item2 {grid-area: item2}
+.item3 {grid-area: item3}
+.item4 {grid-area: item4}
+
+.temple-grid div:nth-of-type(1){
+    grid-area: info1;
+    overflow: auto;
+    height:600px;
+} .temple-grid div:nth-of-type(2){
+    grid-area: info2;
+    overflow: auto;
+    height:600px;
+} .temple-grid div:nth-of-type(3){
+    grid-area: info3;
+    overflow: auto;
+    height:600px;
+} .temple-grid div:nth-of-type(4){
+    grid-area: info4;
+    overflow: auto;
+    height:600px;
+}
 
 
 /*******FOOTER******/
@@ -192,6 +247,6 @@ footer {
     margin: 0;
 }
 
-/*******FORM******/
+
 
 
