@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="author" content="Kian Hyatt">
     <meta name="description"
-        content="Final Project for CIT 230 | Temple Inn & Suites Hotel: Providing the ultimate rejuvenation">
+        content="Final Project for CIT 230 | Temple Inn & Suites Hotel: Providing the room to ease your stress">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/moroni-fav.ico">
-    <title>Temple Inn & Suites | Home</title>
+    <title>Temple Inn & Suites | My Reservations</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -22,9 +22,9 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9826;
                     Menu</a></li>
-            <li><a href="https://bladedkiwi.github.io/lesson_13/index.html" class="active">Temple Inn & Suites</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_13/index.html">Temple Inn & Suites</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/temples.html">Locations</a></li>
-            <li><a href="https://bladedkiwi.github.io/lesson_13/reservations.html">My Reservations</a></li>
+            <li><a href="https://bladedkiwi.github.io/lesson_13/reservations.html" class="active">My Reservations</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/services.html">Services</a></li>
             <li><a href="https://bladedkiwi.github.io/lesson_13/about.html">About Us</a></li>
         </ul>
@@ -51,40 +51,132 @@
         </section>
     </header>
     <main>
-        <div class="body-grid">
-            <div class="review">
-                <h2>My home away from home</h2>
-                <h3>The New Papa Press</h3>
-            </div>
-            <img class="summary-img" src="img/nauvoo.jpg" alt="#">
-            <article class="summary-text">            
-                <h2>The Nauvoo Temple</h2>
-                <p>The Saints of the Church of Jesus Christ of Ladder-day Saints stopped in Nauvoo, and considered this city
-                    to be their final resting spot. They built this temple like Kirtland, and used what they had. They
-                    included the same kinds of rooms as all temples have today. Sadly, the original temple was burned down
-                    due to a lot of people that really didn’t like the Saints. What temple we have today was rebuilt in
-                    2002, and has beautiful lines just like the Kirtland Temple. One can notice the same single peak with
-                    Captain Moroni, and block like formation of the temple body. The Saints were very sad to have to leave
-                    this temple behind, but had faith in the Lord and made the trek to a new area soon to be called Salt
-                    Lake City.</p>
-            </article>
-        
-        <!--Call to action-->
-            <div class="call-to-action">
-                <h2>Come join us, and find your inner happiness again!</h2>
-                <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><h3>Book Here!</h3></a>
-            </div>
-
-        <!--Picture Feed for Rooms-->
         <section class="figure-grid">
             <h4>My Room Options:</h4>
-            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-1.jpg" alt="Vaulted Ceiling Bedroom"><figcaption>Studio Suite</figcaption></figure></a>
-            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-2.jpg" alt="Couch and Bed, with lots of space"><figcaption>Multi-Family Suite</figcaption></figure></a>
-            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-3.jpg" alt="Multi-story living room with dining room"><figcaption>Missionary Quarters</figcaption></figure></a>
-            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-4.jpg" alt="Modern Bedroom with no space"><figcaption>Modern Suite</figcaption></figure></a>
-            <a href="https://bladedkiwi.github.io/lesson_13/reservations.html"><figure><img src="img/rooms/thumbnail-5.jpg" alt="Fancy Kitchen"><figcaption>Multi-Missionary Kitchen</figcaption></figure></a>
+            
+                <figure><img src="img/rooms/thumbnail-1.jpg" alt="Vaulted Ceiling Bedroom">
+                    <figcaption>Studio Suite</figcaption>
+                </figure>
+            
+            
+                <figure><img src="img/rooms/thumbnail-2.jpg" alt="Couch and Bed, with lots of space">
+                    <figcaption>Multi-Family Suite</figcaption>
+                </figure>
+          
+            
+                <figure><img src="img/rooms/thumbnail-3.jpg" alt="Multi-story living room with dining room">
+                    <figcaption>Missionary Quarters</figcaption>
+                </figure>
+           
+            
+                <figure><img src="img/rooms/thumbnail-4.jpg" alt="Modern Bedroom with no space">
+                    <figcaption>Modern Suite</figcaption>
+                </figure>
+            
+            
+                <figure><img src="img/rooms/thumbnail-5.jpg" alt="Fancy Kitchen">
+                    <figcaption>Multi-Missionary Kitchen</figcaption>
+                </figure>
+          
+           
+                <figure><img src="img/rooms/thumbnail-1.jpg" alt="Vaulted Ceiling Bedroom">
+                    <figcaption>Studio Suite</figcaption>
+                </figure>
+            
+            
+                <figure><img src="img/rooms/thumbnail-2.jpg" alt="Couch and Bed, with lots of space">
+                    <figcaption>Multi-Family Suite</figcaption>
+                </figure>
+        
+            
+                <figure><img src="img/rooms/thumbnail-3.jpg" alt="Multi-story living room with dining room">
+                    <figcaption>Missionary Quarters</figcaption>
+                </figure>
+           
+            
+                <figure><img src="img/rooms/thumbnail-4.jpg" alt="Modern Bedroom with no space">
+                    <figcaption>Modern Suite</figcaption>
+                </figure>
+            
+            
+                <figure><img src="img/rooms/thumbnail-5.jpg" alt="Fancy Kitchen">
+                    <figcaption>Multi-Missionary Kitchen</figcaption>
+                </figure>
+            
         </section>
-    </div>
+        <form method='get' action="thanks.html">
+            <h2 class="headings">Submission Form</h2>
+            <!--name, email, phone, zipcode all required-->
+            <fieldset>
+                <legend>Room Info</legend>
+                <label class="input-heading">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="input-heading">Email*<input type="email" name="email" placeholder="name@example.com"
+                        required></label>
+                <label class="input-heading">Phone*<input type="tel" name="phone" required></label>
+                <label class="input-heading">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="input-heading">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="input-heading">Zipcode*<input type="number" name="zipcode" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Info</legend>
+                <label class="input-heading">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="input-heading">Email*<input type="email" name="email" placeholder="name@example.com"
+                        required></label>
+                <label class="input-heading">Phone*<input type="tel" name="phone" required></label>
+                <label class="input-heading">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="input-heading">Full Name*<input type="text" name="name" pattern="[A-Za-z]{5}" required></label>
+                <label class="input-heading">Zipcode*<input type="number" name="zipcode" required></label>
+            </fieldset>
+
+            <!--storm type, storm severity, storm region-->
+            <fieldset>
+                <legend>Details about your Storm...</legend>
+                <label class="input-heading">Storm Date<input type="date" name="sDate"></label>
+                <label class="input-heading">Storm Type
+                <input name="storms" list="stormType"></label>
+                <datalist id="stormType">
+                    <option value="Flash Flood">
+                    <option value="Hail">
+                    <option value="Hurricane">
+                    <option value="Thunderstorm">
+                    <option value="Tornado">
+                </datalist>
+                <label for="rating" class="input-heading">Storm Severity: Rating (1 to 10)<span id="ratingvalue">5</span>
+                    <input type="range" name="Sseverity" id="rating" value="5" min="1" max="10" step="1"
+                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </label>
+                <label class="input-heading">Storm Regions
+                    <select name="storm">
+                        <option value="">Please Select... </option>
+                        <option value="preston">ROOM</option>
+                        <option value="sodaSprings">ROOM</option>
+                        <option value="fishHaven">ROOM</option>
+                        <option value="preston">ROOM</option>
+                        <option value="sodaSprings">ROOM</option>
+                        <option value="fishHaven">ROOM</option>
+                        <option value="preston">ROOM</option>
+                        <option value="sodaSprings">ROOM</option>
+                        <option value="fishHaven">ROOM</option>
+                        <option value="preston">ROOM</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <!--additional text box for more comments-->
+            <fieldset>
+                <legend>Additional Information</legend>
+                <div class="input-heading">In danger? <em>(Choose one)</em></div>
+                <label class="special-buttons"><input type="radio" name="danger" value="yes"><i></i><span>Yes</span></label>
+                <label class="special-buttons"><input type="radio" name="danger" value="no"><i></i><span>No</span></label>
+                <label class="special-buttons"><input type="radio" name="danger" value="maybe"><i></i><span>Maybe</span></label>
+                <label class="input-heading">Is there anything else you would like us to know?<textarea id="commentBox" name="text"
+                        cols="25" rows="9" placeholder="Comments Here..."></textarea></label>
+            </fieldset>
+
+            <!--form submission area-->
+            <label class="submission"><input type="Submit" value="Receive Help, if needed" class="subButton"></label>
+
+        </form>
 
     </main>
     <footer>

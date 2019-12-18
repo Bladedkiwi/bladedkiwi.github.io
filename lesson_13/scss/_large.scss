@@ -23,13 +23,13 @@
     grid-template-columns: .75fr 340px 3fr 2fr;
     grid-template-areas: 
     ". img1 item1 info1"
-    ". img1 item1 info1" 
+    ". img1 item1 fcast1" 
     ". img2 item2 info2" 
-    ". img2 item2 info2" 
+    ". img2 item2 fcast2" 
     ". img3 item3 info3" 
-    ". img3 item3 info3" 
+    ". img3 item3 fcast3" 
     ". img4 item4 info4" 
-    ". img4 item4 info4";
+    ". img4 item4 fcast4";
 } .temple-grid h2 {
     font-family: $heading;
     font-weight: $heading-weight;
