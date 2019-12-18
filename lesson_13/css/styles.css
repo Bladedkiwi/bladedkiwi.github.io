@@ -256,7 +256,11 @@ footer {
   color: #d1a162;
   display: flex;
   justify-content: space-around;
-  align-items: center; }
+  align-items: center;
+  padding: 0; }
+
+footer div {
+  justify-content: center; }
 
 input.subButton {
   border: 3px inset #d1a162;
@@ -288,6 +292,15 @@ footer h3 {
   text-shadow: 1px 2px 1px black;
   font-size: 2rem;
   margin: 0; }
+
+footer h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #ffd700;
+  text-shadow: 1px 2px 1px black;
+  font-size: 2rem;
+  margin: auto; }
 
 @media only screen and (min-width: 32.5em) {
   /*******HEADER******/
@@ -392,7 +405,7 @@ footer h3 {
 
   .img1, .img2, .img3, .img4 {
     grid-column: 1;
-    width: 50vh; }
+    width: 45vh; }
 
   .img1 {
     grid-area: img1; }

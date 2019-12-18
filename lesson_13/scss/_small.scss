@@ -154,7 +154,8 @@ body {
     border-radius: 10px;
     color: $tan;
     text-shadow: 1px 1px 1px black;
-}
+} 
+
 /*******Temples - Grid********/
 .temple-grid {
     grid-row:2;
@@ -219,6 +220,9 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0;
+} footer div {
+    justify-content: center;
 } input.subButton {
     border: 3px inset $tan;
     background-color: $tan;
@@ -245,6 +249,14 @@ footer {
     text-shadow: 1px 2px 1px black;
     font-size: $h3-size;
     margin: 0;
+} footer h4 {
+    font-family: $heading;
+    font-weight: $heading-weight;
+    font-style: italic;
+    color: $gold;
+    text-shadow: 1px 2px 1px black;
+    font-size: $h3-size;
+    margin: auto;
 }
 
 
