@@ -53,36 +53,59 @@ nav {
 } nav a {
     text-decoration: none;
     display: block;
+    padding: 10px;
+} nav a:hover {
+    background-color: rgba(255, 251, 43, 0.671);
 } .nav-logo {
     width: 15%;
-    padding: 10px;
+    margin-left: 1rem;
+    padding: 5px;
 } .navigation {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    flex-direction: row;
+    /*display: grid;
+    grid-template-columns: repeat(6, 1fr);*/
     list-style-type: none;
     font-size: .8rem;
-    padding: 10px;
+    align-items: center;
+    padding: 5px;
     margin: 0;
+    margin-right: 1rem;
 } .navigation a {
     color: $maroon;
     font-weight: 600;
-
+} .active {
+    background-color: rgba(251, 255, 7, 0.952);    
 }
 /*******MAIN********/
 body {
     background: $white;
     font-family: $body;
     color: $purple;
+} body a {
+    text-decoration: none;
+    color: $maroon;
 } .body-grid {
     display: grid; 
     grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: .75fr 3fr 3fr 2fr;
+    grid-template-rows: .5fr 1fr .5fr .5fr;
 } .summary-text {
-    grid-column: 3 / span 3;
+    grid-column: 3;
     grid-row: 2;
     justify-self: center;
     align-self: center;
+} .summary-text h3, .review h3, .call-to-action h3 {
+    font-family: $heading;
+    font-weight: $heading-weight;
+    font-size: $h3-size;
+    font-style: italic;
+    border-bottom: 3px solid $maroon;
+    color: $maroon;
+    box-shadow: 0px 3px 0px 0px $tan;
+    text-shadow: 7px 2px 2px $tan;
+} .summary-text p {
+    font-size: 1.1rem;
 } .summary-img {
     grid-column: 2;
     grid-row: 2;
@@ -95,8 +118,46 @@ body {
 } .figure-grid {
     grid-row: 4;
     grid-column: 1 / -1;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 5px;
+} .figure-grid figure img:hover {
+    box-shadow: -5px 7px 30px 7px $gold;
+    transition: 500ms;
+}.figure-grid figure img {
+    max-width: 100%;
+    border: 5px outset $maroon;
+} .figure-grid figcaption {
+    font-family: $heading;
+    font-style: italic;
+    text-align: center;
+    color: $maroon;
+    text-shadow: 1px 1px $tan;
+} .figure-grid a {
+    text-decoration: none;
+}.review {
+    grid-row:1;
+    grid-column: 1 / -1;
+    justify-self: center;
+    align-self:center;
+} .review h3, .call-to-action h3 {
+    border-bottom: none;
+    box-shadow: none;
+    margin: 0;
+} .review h4 {
+    text-align: end;
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+} .call-to-action h4 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3rem;
+    background-color: $maroon;
+    border-radius: 10px;
+    color: $tan;
+    text-shadow: 1px 1px 1px black;
 }
 
 
@@ -104,4 +165,37 @@ body {
 footer {
     background-color: $maroon;
     color: $tan;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} input.subButton {
+    border: 3px inset $tan;
+    background-color: $tan;
+    color: $maroon;
+    font-weight: bold;
+    border-radius: 5px;
+    letter-spacing: .05rem;
+    font-style: italic;
+} .mini-form {
+    margin: 0px 3px 5px;
+} .mini-form fieldset {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    text-align: right;
+    border: 3px solid $tan;
+} .mini-input {
+    padding: 3px;
+} footer h3 {
+    font-family: $heading;
+    font-weight: $heading-weight;
+    font-style: italic;
+    color: $gold;
+    text-shadow: 1px 2px 1px black;
+    font-size: $h3-size;
+    margin: 0;
 }
+
+/*******FORM******/
+
+
