@@ -216,6 +216,19 @@ body {
     padding: 10px;
     margin-top: -10px;
     font-style: oblique;
+} 
+
+/*******FORM******/
+
+main form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+} .left1, .left2, .left3 {
+    float: left;
+} .right1, .right2, .right3 {
+    float: right;
 }
 
 
