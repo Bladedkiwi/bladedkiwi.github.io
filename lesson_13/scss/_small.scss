@@ -293,6 +293,14 @@ main form {
      background: linear-gradient(to top, #DF9F28, #FDE08D, #8f6B29);
  }
 
+/*******SERVICES******/
+  .lloading img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+} .lloading img[data-src] {
+    filter: blur(0.2em);
+}
 
 /*******FOOTER******/
 footer {
