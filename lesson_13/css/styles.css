@@ -355,9 +355,6 @@ footer {
   align-items: center;
   padding: 0; }
 
-footer iframe {
-  display: none; }
-
 footer div {
   justify-content: center; }
 
@@ -474,9 +471,7 @@ footer p {
   .call-to-action h3 {
     font-size: 1.3rem; }
 
-  /*******FOOTER******/
-  footer iframe {
-    display: block; } }
+  /*******FOOTER******/ }
 @media only screen and (min-width: 60em) {
   /*******HEADER******/
   .over-box {
