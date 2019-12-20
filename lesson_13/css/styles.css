@@ -372,6 +372,9 @@ footer {
   align-items: center;
   padding: 0; }
 
+footer a {
+  color: #D5A86D; }
+
 footer div {
   justify-content: center; }
 
@@ -399,22 +402,13 @@ input.subButton {
 
 footer h3 {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
+  font-size: 1.5rem;
   font-style: italic;
   color: #ffd700;
   text-shadow: 1px 2px 1px black;
   font-size: 2rem;
-  margin: 0;
+  margin: 0 -10px 0;
   padding: 10px; }
-
-footer h4 {
-  font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-  color: #ffd700;
-  text-shadow: 1px 2px 1px black;
-  font-size: 2rem;
-  margin: auto; }
 
 footer p {
   padding: 5px;
@@ -492,7 +486,9 @@ footer p {
   img.fcast1 {
     width: 75%; }
 
-  /*******FOOTER******/ }
+  /*******FOOTER******/
+  footer h3 {
+    font-weight: 300; } }
 @media only screen and (min-width: 60em) {
   /*******HEADER******/
   .over-box {

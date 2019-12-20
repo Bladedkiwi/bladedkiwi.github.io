@@ -316,6 +316,8 @@ footer {
     justify-content: space-around;
     align-items: center;
     padding: 0;
+} footer a {
+    color: $accesstan;
 } footer div {
     justify-content: center;
 } input.subButton {
@@ -338,21 +340,13 @@ footer {
     padding: 3px;
 } footer h3 {
     font-family: $heading;
-    font-weight: $heading-weight;
+    font-size: 1.5rem;
     font-style: italic;
     color: $gold;
     text-shadow: 1px 2px 1px black;
     font-size: $h3-size;
-    margin: 0;
+    margin: 0 -10px 0;
     padding: 10px;
-} footer h4 {
-    font-family: $heading;
-    font-weight: $heading-weight;
-    font-style: italic;
-    color: $gold;
-    text-shadow: 1px 2px 1px black;
-    font-size: $h3-size;
-    margin: auto;
 } footer p {
     padding: 5px;
     margin: 0;
