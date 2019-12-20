@@ -190,6 +190,10 @@ body {
     width: 100%;
 } .special-imgs {
     width: 100%;
+} .special-imgs img {
+    border: 5px outset $maroon;
+} .special-imgs img:hover {
+    box-shadow: -5px 7px 30px 7px $gold;
 } .special-imgs2 {
     width: 45vw;
 } .special-imgs3 {
@@ -309,7 +313,7 @@ main form {
     width: 100%;
 } .lloading img[data-src] {
     filter: blur(0.2em);
-}
+} 
 
 /*******FOOTER******/
 footer {
@@ -322,7 +326,6 @@ footer {
 } footer a {
     color: $gold;
     font-style: italic;
-
 } footer div {
     justify-content: center;
 } input.subButton {

@@ -215,6 +215,12 @@ img.fcast1 {
 .special-imgs {
   width: 100%; }
 
+.special-imgs img {
+  border: 5px outset #800000; }
+
+.special-imgs img:hover {
+  box-shadow: -5px 7px 30px 7px #ffd700; }
+
 .special-imgs2 {
   width: 45vw; }
 
