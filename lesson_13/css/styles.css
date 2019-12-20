@@ -218,6 +218,10 @@ img.fcast1 {
 .special-imgs2 {
   width: 45vw; }
 
+.special-imgs3 {
+  grid-column: 2;
+  margin: 4em 0; }
+
 .img1 {
   grid-area: img1; }
 
@@ -485,6 +489,10 @@ footer p {
   /*******Temples - Grid********/
   img.fcast1 {
     width: 75%; }
+
+  /*******FORM******/
+  form figure {
+    display: block; }
 
   /*******FOOTER******/
   footer h3 {

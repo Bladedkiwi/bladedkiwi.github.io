@@ -52,13 +52,21 @@ nav {
     font-size: .9rem;
 } .call-to-action h3 {
     font-size: 1.3rem;  
-} 
+}  .special-imgs3 {
+    grid-column: 2;
+    margin: 4em;
+}
 
 /*******Temples - Grid********/
 img.fcast1 {
     width: 75%;
 }
+/*******FORM******/
+form figure {
+    display: block;
+}
 /*******FOOTER******/
 footer h3 {
 font-weight: $heading-weight;
 }
+
