@@ -377,7 +377,8 @@ footer {
   padding: 0; }
 
 footer a {
-  color: #D5A86D; }
+  color: #ffd700;
+  font-style: italic; }
 
 footer div {
   justify-content: center; }
@@ -485,6 +486,10 @@ footer p {
 
   .call-to-action h3 {
     font-size: 1.3rem; }
+
+  .special-imgs3 {
+    grid-column: 2;
+    margin: 4em; }
 
   /*******Temples - Grid********/
   img.fcast1 {
