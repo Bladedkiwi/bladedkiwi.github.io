@@ -82,7 +82,7 @@ body {
     display: grid; 
     grid-gap: 10px;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .1fr .2fr .1fr .3fr;/*.3fr .2fr .3fr .5fr*/
+    grid-template-rows: .1fr .2fr .1fr .3fr;
 } .summary-text {
     grid-column: 1;
     grid-row: 2;
@@ -186,7 +186,13 @@ body {
 } .img1, .img2, .img3, .img4 {
     grid-column: 1;
     width: 200px;
-} 
+} img.fcast1 {
+    width: 100%;
+} .special-imgs {
+    width: 100%;
+} .special-imgs2 {
+    width: 45vw;
+}
 .img1 {grid-area: img1}
 .img2 {grid-area: img2}
 .img3 {grid-area: img3}
